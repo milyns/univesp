@@ -1,0 +1,139 @@
+
+
+### Lista Completa de Cursos
+
+1. **Administração | Introdução à Administração (2019.1)**
+2. **Agronegócio | Fundamentos do Agronegócio (2019.1)**
+3. **Agronegócio | Gestão da Produção Agropecuária (2019.1)**
+4. **Agronegócio | Gestão Financeira no Agronegócio (2019.1)**
+5. **Agronegócio | Marketing no Agronegócio (2019.1)**
+6. **Agronegócio | Tecnologia na Produção Agropecuária (2019.1)**
+7. **Ciências Contábeis | Contabilidade Geral (2019.1)**
+8. **Ciências Contábeis | Contabilidade de Custos (2019.1)**
+9. **Ciências Contábeis | Contabilidade Tributária (2019.1)**
+10. **Ciências Contábeis | Finanças Empresariais (2019.1)**
+11. **Direito | Introdução ao Direito (2019.1)**
+12. **Direito | Direito Constitucional (2019.1)**
+13. **Direito | Direito Civil (2019.1)**
+14. **Direito | Direito Penal (2019.1)**
+15. **Educação | Psicologia da Educação (2019.1)**
+16. **Educação | Didática (2019.1)**
+17. **Educação | História da Educação (2019.1)**
+18. **Educação | Filosofia da Educação (2019.1)**
+19. **Engenharia Civil | Mecânica Geral (2019.1)**
+20. **Engenharia Civil | Resistência dos Materiais (2019.1)**
+21. **Engenharia Civil | Topografia (2019.1)**
+22. **Engenharia de Produção | Gestão da Qualidade (2019.1)**
+23. **Engenharia de Produção | Logística (2019.1)**
+24. **Engenharia de Produção | Gestão de Projetos (2019.1)**
+25. **Engenharia de Produção | Gestão Ambiental (2019.1)**
+26. **Letras | Introdução à Fonética e à Fonologia (2019.1)**
+27. **Matemática | Cálculo I (2019.1)**
+28. **Matemática | Elementos de Álgebra (2017.2)**
+29. **Matemática | Geometria Espacial (2017.2)**
+30. **Pedagogia | Fundamentos da Educação (2019.1)**
+31. **Pedagogia | Prática Pedagógica (2019.1)**
+32. **Programação Orientada a Objetos - Apresentação**
+33. **Programação Orientada a Objetos - Paradigmas de Programação e Introdução ao Paradigma Orientado...**
+34. **Eixo de Computação | Formação Profissional em Computação (2020.1)**
+
+
+EIXOS 
+
+
+
+Eixo de Matemática
+Curso: Matemática | Cálculo I (2019.1)
+Cálculo I - Apresentação da disciplina
+
+Cálculo I - Funções reais de uma variável real
+(total de 21 vídeos)
+
+Curso: Matemática | Elementos de Álgebra (2017.2)
+Elementos de Álgebra - Estruturas algébricas: o que são?
+
+Elementos de Álgebra - Estruturas algébricas: para que servem?
+(total de 21 vídeos)
+
+Curso: Matemática | Geometria Espacial
+Geometria Espacial - Área de Regiões Poligonais
+
+Geometria Espacial - Área de Círculos
+(total de 21 vídeos)
+
+2. Eixo de Letras
+Curso: Letras | Introdução à Fonética e à Fonologia (2019.1)
+Introdução à Fonética e à Fonologia - Noções básicas de fonética
+
+Introdução à Fonética e à Fonologia - Relações entre Fonética e Fonologia
+(total de 26 vídeos)
+
+3. Eixo de Computação
+Curso: Eixo de Computação | Formação Profissional em Computação (2020.1)
+Formação Profissional em Computação - Pensamento Computacional
+
+Formação Profissional em Computação - Evolução da computação e paradigmas de programação
+(total de 14 vídeos)
+
+Curso: Programação Orientada a Objetos
+Programação Orientada a Objetos - Apresentação
+
+Programação Orientada a Objetos - Paradigmas de Programação e Introdução ao Paradigma Orientado a Objetos
+(total de vídeos não detalhados ainda)
+
+4. Outros Eixos e Cursos
+(Baseado na lista completa, sem detalhes dos vídeos para alguns cursos)
+
+Administração | Introdução à Administração (2019.1)
+
+Agronegócio | Fundamentos do Agronegócio (2019.1)
+
+Agronegócio | Gestão da Produção Agropecuária (2019.1)
+
+Agronegócio | Gestão Financeira no Agronegócio (2019.1)
+
+Agronegócio | Marketing no Agronegócio (2019.1)
+
+Agronegócio | Tecnologia na Produção Agropecuária (2019.1)
+
+Ciências Contábeis | Contabilidade Geral (2019.1)
+
+Ciências Contábeis | Contabilidade de Custos (2019.1)
+
+Ciências Contábeis | Contabilidade Tributária (2019.1)
+
+Ciências Contábeis | Finanças Empresariais (2019.1)
+
+Direito | Introdução ao Direito (2019.1)
+
+Direito | Direito Constitucional (2019.1)
+
+Direito | Direito Civil (2019.1)
+
+Direito | Direito Penal (2019.1)
+
+Educação | Psicologia da Educação (2019.1)
+
+Educação | Didática (2019.1)
+
+Educação | História da Educação (2019.1)
+
+Educação | Filosofia da Educação (2019.1)
+
+Engenharia Civil | Mecânica Geral (2019.1)
+
+Engenharia Civil | Resistência dos Materiais (2019.1)
+
+Engenharia Civil | Topografia (2019.1)
+
+Engenharia de Produção | Gestão da Qualidade (2019.1)
+
+Engenharia de Produção | Logística (2019.1)
+
+Engenharia de Produção | Gestão de Projetos (2019.1)
+
+Engenharia de Produção | Gestão Ambiental (2019.1)
+
+Pedagogia | Fundamentos da Educação (2019.1)
+
+Pedagogia | Prática Pedagógica (2019.1)
