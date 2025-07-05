@@ -1,0 +1,379 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* REDONDINHO */
+
+.botao-home {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #AF1C27;
+  color: white;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.botao-home:hover {
+  background-color: #8e1922;
+}
+
+
+/* REDONDINHO LIBRAS */
+
+.botao-libras {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  background-color: #AF1C27;
+  color: white;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.botao-libras:hover {
+  background-color: #8e1922;
+}
+
+/* MENU FIXO 2 */
+
+
+
+/* MENU FIXO */
+.navbar-main-img {
+  position: absolute; /* Permite sobreposição */
+  top: 50px; /* Ajuste a posição vertical da logo */
+  left: 10px; /* Ajuste a posição horizontal da logo */
+  z-index: 10; /* Garante que a logo fique acima da imagem */
+  height: 60px; /* Tamanho da logo */
+
+}
+
+.navbar-main {
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* Parte superior vermelha */
+.navbar-top-half {
+  background-color: #AF1C27;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 30px;
+  align-items: center;
+}
+
+/* "Buscar" só texto */
+.search-container {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* "Menu" com ícone */
+.menu-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Parte inferior cinza */
+.navbar-bottom-half {
+  background-color: #cacaca;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* Botões vermelhos arredondados */
+.btn-custom {
+  background-color: #AF1C27;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 9px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-custom:hover {
+  background-color: #8f1b22;
+}
+
+.fixed-top-right {
+  position: fixed;
+  top: 20;
+  right: 0;
+  z-index: 9999;
+  width: 300px; /* ajuste conforme desejar */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+
+/*DESTAQUE*/
+
+/* Filtro escuro */
+.container-text::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Escurece a imagem */
+    z-index: 1;
+}
+
+/* Ajuste dos elementos internos */
+.container-text > * {
+    position: relative;
+    z-index: 2; /* Garante que o conteúdo apareça acima do filtro */
+}
+
+/* Título */
+.container-text h1 {
+    font-size: 110px;        
+    color: #af1817;       
+    margin-bottom: 0.5rem; 
+    font-weight: bold;    
+}
+
+/* Frase Subtítulo */
+.container-text p {
+    font-size: 1.2rem;     
+    color: #fff;           /* Ajustei para branco, para maior contraste */
+    max-width: 600px;      
+    line-height: 1.5;      
+    margin: 0;            
+}
+
+/* Botão */
+.container-text button {
+    padding: 10px 20px;       
+    font-size: 1rem;           
+    color: #fff;              
+    background-color: #af1817; 
+    border: none;              
+    border-radius: 5px;        
+    cursor: pointer;           
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+
+.container-text button:hover {
+    background-color: #892c31; 
+    transform: scale(1.05);    
+}
+
+.container-text {
+  position: relative; /* Define o contêiner como base para a posição absoluta da logo */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  background-image: url('https://univesp.br/sites/58f6506869226e9479d38201/pages/58f6506869226e9479d38203/files/Univesp_2025__Divulgacao_-_Vestibular__-_BAIXA_RESOLUCAO__23.jpg?1748878674');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  overflow: hidden;
+}
+
+/* TEXTO */
+h10{
+    color: gray ;
+}
+
+h7{
+    color: #af1817;
+    font-family: 'open sans', serif;
+    font-weight: bold;
+    font-size: 3em;  
+}
+
+
+.text-desc{
+  text-align: justify;
+}
+
+.textblock.bg-white .textblock_body {
+    background: #fff;
+}
+
+.textblock_body {
+    background: #fff;
+    overflow: hidden;
+    color: #000;
+    padding: 0 142px;
+    word-wrap: break-word;
+}
+
+p{
+  display: block;
+  margin-block-start: 1em;
+  margin-inline-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+
+/* NAVBAR */
+
+.logo-univesp {
+  position: absolute; /* Permite sobreposição */
+  top: 60px; /* Ajuste a posição vertical da logo */
+  left: 20px; /* Ajuste a posição horizontal da logo */
+  z-index: 10; /* Garante que a logo fique acima da imagem */
+  height: 60px; /* Tamanho da logo */
+}
+
+.navbar {
+  width: 100%;
+  background-color: #fff;
+}
+
+.navbar-top {
+  display: flex; 
+  align-items: center; 
+  justify-content: flex-start; 
+  gap: 15px;
+}
+
+.navbar-top-right {
+  display: flex; 
+  gap: 10px; 
+}
+
+.navbar-top-right img {
+  height: 20px; 
+  cursor: pointer;
+}
+
+.logo-container {
+  display: flex; 
+  align-items: center;
+  background-color: #000;
+  border-radius: 0px 80px 80px 0px;
+
+}
+
+.logo-sp {
+  height: 55px; 
+  margin-right: 5px; 
+}
+
+.sp-digital-button{
+    border-radius: 150px;
+    padding: 2px 10px;
+    background: #fff;
+    border: 2px solid #000;  
+    margin-left: auto;
+    margin-right: 130px;
+    font-size: 10px;
+}
+
+.sp-digital {
+  color: #000;
+  font-size: 14px;
+}
+
+/* FOOTER */
+
+footer{ 
+    width: 100%;
+    min-height: 250px;
+    background:#354551;
+    display: flex;
+    font-family: 'open sans', sans-serif;
+}
+
+footer img{
+    height: 60px;
+    width: auto;
+    padding-left: 45px;
+}
+
+footer .redes img{
+    height: 30px;
+    gap: 2px;
+}
+
+footer .boxs{
+    width: 320px;
+    min-width: 150px;
+    padding: 20px;
+}
+
+footer .box:nth-child(4){
+    width: 400px;
+}
+
+.boxs h11{
+    color: #fff;
+    margin-bottom: 10px;
+    font-weight: bold;
+
+}
+
+.boxs ul li {
+    margin: 10px 0px;
+    list-style: none;
+}
+
+.boxs ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.boxs ul li a:hover{
+    color: #fff;
+}
+
+.boxs p {
+    color: #fff;
+    text-align: justify;
+}
+
+.footer{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #354551;
+    padding: 48px 20px;
+}
+
+.footer h2{
+    color: #fff;
+}
+
+.footer .sociais {
+    display: flex;
+}
