@@ -1,0 +1,273 @@
+/* Configuração Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'open sans', serif;
+}
+
+body{
+    min-height: auto;
+    }
+
+html {
+    height: 100%;
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    
+}
+
+/* textos */
+
+h7{
+    color: #af1817;
+    font-family: 'open sans', serif;
+    font-weight: bold;
+    font-size: 3em;  
+}
+
+h8 {
+      text-align: center;
+      margin: 20px 0;
+      font-size: 2.5rem;
+      color: #AF1C27;
+      font-weight: bold;
+    }
+
+.text-desc{
+  text-align: justify;
+}
+
+.textblock.bg-white .textblock_body {
+    background: #fff;
+}
+
+.textblock_body {
+    background: #fff;
+    overflow: hidden;
+    color: #000;
+    padding: 0 142px;
+    word-wrap: break-word;
+}
+
+p{
+  display: block;
+  margin-block-start: 1em;
+  margin-inline-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+/* Header */
+header {
+    width: 100%;
+    padding: 20px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    transition: all 0.5s;
+    z-index: 1000;
+    text-decoration: none;
+}
+
+header.rolagem {
+    background-color: #808080;
+    padding: 10px 4%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+
+}
+
+header.rolagem a, header.rolagem i{
+    color: #fff;
+    text-decoration: none;
+
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    text-decoration: none;
+
+}
+
+header nav ul li a {
+    font-family: 'trebuchet ms', serif;
+    color: #fff;
+    text-decoration: none;
+    font-weight: regular;
+    transition: color 0.3s;
+    text-decoration: none;
+
+}
+
+header nav ul li a:hover {
+    color: #892c31;
+    text-decoration: none;
+
+}
+
+
+/* Nav bar config*/
+
+.navbar-brand img {
+  padding-left: 13px;
+  height: 55px;
+  transition: height .1s; 
+  text-decoration: none;
+
+}
+
+.navbar-brand img.maximize {
+  height: 85px; 
+  text-decoration: none;
+
+}
+
+.navbar-brand img {
+  height: 55 px;
+  width: auto; 
+    text-decoration: none;
+
+} 
+
+.navbar-brand{
+  display: flex;
+  align-items: center;
+    text-decoration: none;
+
+}
+
+
+
+
+/* Responsividade */
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    header .flex {
+        flex-direction: column;
+        text-align: center;
+    }
+
+  }
+
+  @media (max-width: 768px) {
+  .carousel-caption h5 {
+    font-size: 1.5rem; /* Reduz o tamanho do título */
+  }
+
+  .carousel-caption p {
+    font-size: 1rem; /* Reduz o tamanho do texto */
+  }
+}
+
+
+  /* Footer */
+
+  footer {
+  background-color: #303030;
+  padding: 60px 0;
+  color: gray; }
+  footer .row > div {
+    margin-bottom: 15px; }
+  footer h1 {
+    font-weight: lighter;
+    margin-bottom: 30px;
+    color: white; }
+  footer h3 {
+    font-weight: bolder;
+    font-size: 1rem;
+    color: white; }
+  footer i {
+    color: #af1817; }
+  footer p, footer span.fa {
+    font-size: 13px; 
+    color: #fff;
+  }
+  footer a {
+    border-bottom: 1px solid #af1817;
+    color: gray; }
+  footer .copyright {
+    font-size: 12px;
+    padding-top: 5px; }
+
+    
+/*RESPONSIVIDADE*/    
+
+/* Smartphones */
+@media (max-width: 480px) {
+  .container-text h1 {
+    font-size: 35px;
+  }
+  
+  .container-text p {
+    font-size: 0.9rem;
+  }
+  
+  .navbar-top-half {
+    padding: 15px 10px;
+  }
+  
+  .search-container,
+  .menu-container {
+    font-size: 14px;
+  }
+  
+  .btn-custom {
+    font-size: 10px;
+    padding: 8px 16px;
+  }
+  
+  .logo-sp {
+    height: 45px;
+  }
+  
+  .sp-digital-button {
+    font-size: 8px;
+    padding: 1px 8px;
+  }
+  
+  footer .boxs {
+    padding: 10px;
+  }
+  
+  .boxs h11 {
+    font-size: 1.2rem;
+  }
+}
+
+/* Smartphones muito pequenos */
+@media (max-width: 320px) {
+  .container-text h1 {
+    font-size: 28px;
+  }
+  
+  .container-text p {
+    font-size: 0.8rem;
+  }
+  
+  .btn-custom {
+    width: 100%;
+    margin: 5px 0;
+  }
+}

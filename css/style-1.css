@@ -1,0 +1,434 @@
+/* Configuração Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'open sans', serif;
+}
+
+body{
+    min-height: auto;
+    }
+
+html {
+    height: 100%;
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    
+}
+
+
+/* REDONDINHO */
+
+.botao-home {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #AF1C27;
+  color: white;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.botao-home:hover {
+  background-color: #8e1922;
+}
+
+
+/* REDONDINHO TOPO*/
+
+.botao-topo {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  background-color: #AF1C27;
+  color: white;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.botao-home:hover {
+  background-color: #8e1922;
+}
+
+
+
+
+/* Header */
+header {
+    width: 100%;
+    padding: 20px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    transition: all 0.5s;
+    z-index: 1000;
+    text-decoration: none;
+}
+
+header.rolagem {
+    background-color: #808080;
+    padding: 10px 4%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+
+}
+
+header.rolagem a, header.rolagem i{
+    color: #fff;
+    text-decoration: none;
+
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    text-decoration: none;
+
+}
+
+header nav ul li a {
+    font-family: 'trebuchet ms', serif;
+    color: #fff;
+    text-decoration: none;
+    font-weight: regular;
+    transition: color 0.3s;
+    text-decoration: none;
+
+}
+
+header nav ul li a:hover {
+    color: #892c31;
+    text-decoration: none;
+
+}
+
+
+/* Nav bar config*/
+
+.navbar-brand img {
+  padding-left: 13px;
+  height: 55px;
+  transition: height .1s; 
+  text-decoration: none;
+
+}
+
+.navbar-brand img.maximize {
+  height: 85px; 
+  text-decoration: none;
+
+}
+
+.navbar-brand img {
+  height: 55 px;
+  width: auto; 
+    text-decoration: none;
+
+} 
+
+.navbar-brand{
+  display: flex;
+  align-items: center;
+    text-decoration: none;
+
+}
+
+/* banner */
+
+.banner {
+    height: 70vh;
+    background-color: #3030304d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* textos */
+
+/* Container Geral */
+.container-text {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;   
+    justify-content: center; 
+    text-align: center;     
+    height: 100vh;         
+    background-image: url('https://univesp.br/sites/58f6506869226e9479d38201/pages/58f6506869226e9479d38203/files/Univesp_2025__Divulgacao_-_Vestibular__-_BAIXA_RESOLUCAO__23.jpg?1748878674'); /* Caminho da imagem */
+    background-size: cover; /* Ajuste para cobrir toda a área */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição */
+    position: relative; /* Necessário para o pseudo-elemento */
+    color: white; /* Deixa o texto legível sobre o fundo */
+}
+
+/* Filtro escuro */
+.container-text::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Escurece a imagem */
+    z-index: 1;
+}
+
+/* Ajuste dos elementos internos */
+.container-text > * {
+    position: relative;
+    z-index: 2; /* Garante que o conteúdo apareça acima do filtro */
+}
+
+/* Título */
+.container-text h1 {
+    font-size: 110px;        
+    color: #af1817;       
+    margin-bottom: 0.5rem; 
+    font-weight: bold;    
+}
+
+/* Frase Subtítulo */
+.container-text p {
+    font-size: 1.2rem;     
+    color: #fff;           /* Ajustei para branco, para maior contraste */
+    max-width: 600px;      
+    line-height: 1.5;      
+    margin: 0;            
+}
+
+/* Botão */
+.container-text button {
+    padding: 10px 20px;       
+    font-size: 1rem;           
+    color: #fff;              
+    background-color: #af1817; 
+    border: none;              
+    border-radius: 5px;        
+    cursor: pointer;           
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+
+.container-text button:hover {
+    background-color: #892c31; 
+    transform: scale(1.05);    
+}
+
+
+/* bloco */
+
+/* Geral */
+.container-fluid {
+  background-color: #e3e3e3;
+}
+
+.link-card {
+  display: block;
+  background-color: #892c31; /* Default para o primeiro link */
+  text-decoration: none; /* Remove o sublinhado */
+  color: white; /* Texto em branco */
+}
+
+.link-card:nth-child(2) {
+  background-color: #00D4CC; /* Cor específica para o segundo link */
+}
+
+.link-card .row {
+  display: flex;
+}
+
+.link-card img {
+  max-width: 100%;
+  display: block;
+}
+
+.link-card .content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.link-card .highlight {
+  height: 5px;
+  width: 55px;
+  background-color: white;
+  margin-bottom: 15px;
+  margin-left: -60px;
+}
+
+.link-card h4 {
+  font-family: 'Barlow', sans-serif;
+  margin: 0;
+}
+
+.link-card p {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.link-card:hover {
+  color: white; /* Garante que a cor do texto não muda */
+}
+
+.link-card h4,
+.link-card p {
+  color: white; /* Define a cor do texto */
+  text-decoration: none; /* Garante que não há sublinhado */
+}
+
+.link-card h4:hover,
+.link-card p:hover {
+  color: white; /* Mantém a cor do texto ao passar o mouse */
+}
+
+
+a {
+  text-decoration: none !important; /* Remove o sublinhado de qualquer link */
+}
+
+a:hover {
+  text-decoration: none; /* Garante que não reapareça no hover */
+}
+
+.link-card h4, 
+.link-card p {
+  text-decoration: none; /* Remove qualquer sublinhado nos textos internos */
+  color: inherit; /* Mantém a cor herdada */
+}
+
+
+
+/* Responsividade */
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    header .flex {
+        flex-direction: column;
+        text-align: center;
+    }
+
+  }
+
+  /* Footer */
+
+  footer {
+  background-color: #303030;
+  padding: 60px 0;
+  color: gray; }
+  footer .row > div {
+    margin-bottom: 15px; }
+  footer h1 {
+    font-weight: lighter;
+    margin-bottom: 30px;
+    color: white; }
+  footer h3 {
+    font-weight: bolder;
+    font-size: 1rem;
+    color: white; }
+  footer i {
+    color: #af1817; }
+  footer p, footer span.fa {
+    font-size: 13px; }
+  footer a {
+    border-bottom: 1px solid #af1817;
+    color: gray; }
+  footer .copyright {
+    font-size: 12px;
+    padding-top: 5px; }
+
+/*RESPONSIVIDADE*/    
+
+/* Smartphones */
+@media (max-width: 480px) {
+  .container-text h1 {
+    font-size: 35px;
+  }
+  
+  .container-text p {
+    font-size: 0.9rem;
+  }
+  
+  .navbar-top-half {
+    padding: 15px 10px;
+  }
+  
+  .search-container,
+  .menu-container {
+    font-size: 14px;
+  }
+  
+  .btn-custom {
+    font-size: 10px;
+    padding: 8px 16px;
+  }
+  
+  .logo-sp {
+    height: 45px;
+  }
+  
+  .sp-digital-button {
+    font-size: 8px;
+    padding: 1px 8px;
+  }
+  
+  footer .boxs {
+    padding: 10px;
+  }
+  
+  .boxs h11 {
+    font-size: 1.2rem;
+  }
+}
+
+/* Smartphones muito pequenos */
+@media (max-width: 320px) {
+  .container-text h1 {
+    font-size: 28px;
+  }
+  
+  .container-text p {
+    font-size: 0.8rem;
+  }
+  
+  .btn-custom {
+    width: 100%;
+    margin: 5px 0;
+  }
+}

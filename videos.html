@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en"
+     >
+<head>
+<meta charset="utf-8" />
+
+<title> Videos </title>
+
+<!-- icones -->
+	<link rel="icon" type="image/x-icon" href="assets/v - simbolo.png" />
+<!-- CSS meus -->
+	<link href="css/style-2.css" rel="stylesheet" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+    <!-- CSS  -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+    <!--fim da config base-->
+
+<body>
+    
+    <!--config navbar-->
+
+
+    <header id="header" class="rolagem">
+        <div class="container">
+            <div class="flex">
+                <a href="index.html"><i class=""> </i></a>
+ <a class="navbar-brand" href="index.html"><img src="assets/logo-univesp.png" alt="logotipo da Univesp" ></a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html"><h3> Home </a></li>
+                        <li><a href="https://univesp.br/"><h3> Univesp </a></li>
+                        <li><a href="cursos.html"><h3> Cursos </a></li>
+                        <li><a href="playlist.html"><h3> Playlist </a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+
+    <!--Fim config navbar-->
+
+<br><br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <!--rodapé-->
+
+
+      <footer class="container-fluid">
+  <div class="container">
+
+      <p class="copyright" tabindex="0"><strong>2025. UNIVESP - Universidade Virtual do Estado de São Paulo.<br/></strong> Av. Paulista, n° 352, 14º andar - Bela Vista, São Paulo - SP, CEP: 01310-905 - +55 11 3188-6700 |
+      <a href="https://www.facebook.com/pages/UNIVESP-Universidade-Virtual-do-Estado-de-S%C3%A3o-Paulo/1506859409552887" target="_blank" title="Facebook">
+      <span class="fa fa-facebook-square"></span></a>
+      <!--<a href="https://twitter.com/univespoficial" target="_blank" title="Twitter">
+      <span class="fa fa-twitter-square"></span></a>-->
+      <a href="https://www.instagram.com/univespoficial/" target="_blank" title="Instagram">
+      <span class="fa fa-instagram"></span></a>
+      <a href="https://www.youtube.com/channel/UCBL2tfrwhEhX52Dze_aO3zA" target="_blank" title="Instagram">
+      <span class="fa fa-youtube-play"></span></a>
+      <p>Canais de atendimento Univesp: <a href="https://atendimento.univesp.br" target="_blank">https://atendimento.univesp.br</a></p>
+    </p>
+
+  </div>
+</footer>
+
+
+  </body>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="https://code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script>
+  $("#polos .overflow").on("click", function(){ $(this).fadeOut(); })
+</script>
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "561748d309a8476cb6cfc8538c9ecbab"}'></script><!-- End Cloudflare Web Analytics -->
+<script src="java.js" type="text/javascript" ></script>
+
+
+  <script>
+    var brand = $(".navbar-brand img");
+    var scroll = $(window).scrollTop();
+
+    function changeNav(){
+      var scroll = $(window).scrollTop();
+      if(scroll > 1){
+        brand.removeClass("maximize")
+      } else {
+        brand.addClass("maximize");
+      }
+    }
+    brand.addClass("maximize");
+    $(window).on("scroll", changeNav);
+  </script>
+
+</html>
+
+    <!--java-->
+
+<script src="menu.js"></script>
+
+</body>
+</html>

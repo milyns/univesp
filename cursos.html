@@ -1,0 +1,1437 @@
+<!DOCTYPE html>
+<html lang="en"
+     >
+<head>
+<meta charset="utf-8" />
+
+<title> Cursos </title>
+
+<!-- icones -->
+	<link rel="icon" type="image/x-icon" href="assets/v - simbolo.png" />
+
+    <!-- CSS do Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- CSS meus -->
+
+    <link rel="stylesheet" href="css/style-2.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- JavaScript do Bootstrap e dependências -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+
+  <!--redondinho libras-->
+  <a href="acessibilidade.html" class="botao-libras" title="Acessar página de acessibilidade" tabindex="-1">
+  <i class="fas fa-universal-access"></i>
+  </a>
+      
+
+    <!-- navbar -->
+  <header class="navbar-custom">
+    <div class="navbar-top-custom">
+        
+    <!-- Logo e SP + Digital -->
+
+      <div class="logo-container">
+        <img src="assets/sp-logo.png" alt="Governo de São Paulo" class="logo-sp">
+      </div>
+
+      <button class="sp-digital-button">SP + Digital </button>
+
+    <!-- Redes sociais CSS -->
+
+      <style>
+        .fa-linkedin-square:before {
+            color: black;
+        }
+
+        .fa-facebook-square:before {
+            color: black;
+        }
+
+        .fa-instagram:before {
+            color: black;
+        }
+
+        .fa-youtube-play:before {
+            color: black;
+        }
+
+        .fa-twitter-square:before {
+            color: black;
+        }
+
+        .navbar-top-right a:last-child {
+         margin-right: 10px; 
+        }
+
+        .navbar-top-right h10 {
+         margin-left: 5px; 
+         padding-right: 130px; 
+        }
+      </style>
+
+    <!-- Redes sociais -->
+
+      <div class="navbar-top-right-custom">
+
+        <a href="https://www.linkedin.com/school/univespoficial/" target="_blank" title="LinkedIn">
+            <span class="fa fa-linkedin-square"></span></a>
+
+        <a href="https://www.tiktok.com/@univesp?is_from_webapp=1&sender_device=pc" target="_blank" title="Twitter">
+            <span class="fa fa-twitter-square"></span></a>
+
+        <a href="https://www.tiktok.com/@univesp?is_from_webapp=1&sender_device=pc" target="_blank" title="Twitter">
+            <span class="fa fa-twitter-square"></span></a>  
+
+        <a href="https://www.instagram.com/univespoficial/">
+            <span class="fa fa-instagram"></span></a>
+
+        <a href="https://www.youtube.com/channel/UCBL2tfrwhEhX52Dze_aO3zA" target="_blank" title="youtube">
+            <span class="fa fa-youtube-play"></span></a>
+
+        <a href="https://www.facebook.com/pages/UNIVESP-Universidade-Virtual-do-Estado-de-S%C3%A3o-Paulo/1506859409552887" target="_blank" title="Facebook">
+            <span class="fa fa-facebook-square"></span></a>
+
+        <h10>/governosp</h10>
+      </div>
+    </div>
+    
+  <div class="navbar-main">
+    <a href="teste.html"><img src="assets/logo-univesp-cinza.png" alt="Logo UNIVESP" class="logo-univesp"></a>  
+    </div>  
+
+  </header>
+
+    <!--Fim config navbar-->
+
+    <br>
+    <br><br><br>
+    
+    
+  
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="assets/mais.png" alt="Primeiro Slide">
+      <div class="carousel-caption d-none d-md-block">
+        
+        <a href="https://youtu.be/NS0YvyW9sUg?si=X1Jy-ZGqf-CqHRnr" class="btn btn-primary">Ver conteúdo</a>
+      </div>
+    </div>
+
+
+
+<style>
+
+footer {
+  background-color: #354551 !important;
+  min-height: 250px !important;
+  display: flex !important;
+  font-family: 'open sans', sans-serif !important;
+}
+
+footer .boxs {
+  width: 320px !important;
+  min-width: 150px !important;
+  padding: 20px !important;
+}
+
+
+.carousel-caption {
+  position: absolute !important;
+  top: 50% !important;
+  left: 13% !important;
+  transform: translate(-50%, -50%) !important;
+  width: 50% !important;
+  max-width: 350px !important;
+  text-align: center !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  pointer-events: auto !important;
+  padding: 0 5px !important;
+  color: white !important;
+
+}
+
+.carousel-item img {
+  height: 500px !important; 
+  object-fit: cover !important;
+}
+
+
+.course h3 {
+  margin: 15px;
+  font-size: 15px;
+}
+
+.logo-container {
+  display: flex !important; 
+  align-items: center !important;
+  background-color: #000 !important;
+  border-radius: 0px 80px 80px 0px !important;
+
+}
+
+.logo-sp {
+  height: 55px !important; 
+  margin-right: 5px !important; 
+}
+
+.sp-digital-button{
+    border-radius: 150px !important;
+    padding: 2px 10px !important;
+    background: #fff !important;
+    border: 2px solid #000 !important;  
+    margin-left: auto !important;
+    margin-right: 130px !important;
+    font-size: 10px !important;
+}
+
+.sp-digital {
+  color: #000 !important;
+  font-size: 14px !important;
+}
+
+</style>
+
+    <!--fim do carrossel-->
+
+<br><br>
+
+
+
+  
+  <!-- materiais -->  
+<div id="explore">
+  <center><h8> Explore nossos cursos </h8></center>
+  </div>
+
+  <br>
+  
+  <!-- PESQUISA -->
+
+<div class="search-bar">
+  <input type="text" id="searchInput" placeholder="Buscar cursos, disciplinas...">
+</div>
+
+<div id="search-results-section" style="display: none;">
+
+  <center><h3>Resultados da busca:</h3>
+
+  <div id="search-results" class="result-wrapper"></div>
+
+  <p id="no-results" style="display: none; color: #D13239; font-weight: bold;">Nenhum curso encontrado.</p></center>
+</div>
+
+
+
+<br><br>
+
+ <div class="tabs">
+    <div class="tab active" data-target="bacharel">Bacharel</div>
+    <div class="tab" data-target="ciclo-basico">Ciclo Básico</div>
+    <div class="tab" data-target="humanas">Ciências Humanas</div>
+    <div class="tab" data-target="exatas">Ciências Exatas</div>
+    <div class="tab" data-target="eixos">Eixos</div>
+    <div class="tab" data-target="licenciaturas">Licenciaturas</div>
+    <div class="tab" data-target="pi">Projeto Integrador</div>
+    <div class="tab" data-target="sociais">Sociais Aplicadas</div>
+    <div class="tab" data-target="tcc">TCC</div>
+    <div class="tab" data-target="federais">Cursos Federais</div>
+
+
+  </div>
+
+<!-- TAB bacharel -->
+
+ <div class="content active" id="bacharel">
+  <div class="courses">
+      <div class="course">
+
+<!-- TAB bacharel -->
+
+  <div>
+    <h3><a href="bacharel-adm.html"  style="color: #D13239; text-decoration: none;" >Administração </a></h3>
+    <p><a href="bacharel-adm.html#plan-tributario" style="color: black; text-decoration: none;">Planejamento Tributário</a></p>
+    <p><a href="bacharel-adm.html#politica-gestao" style="color: black; text-decoration: none;"> Política Pública e Gestão Social</a></p>
+    <p><a href="bacharel-adm.html#socio" style="color: black; text-decoration: none;"> Sociologia</a></p>
+
+
+  </div>
+  </div>
+
+
+
+<!-- TAB bacharel -->
+
+    <div class="courses">
+      <div class="course">
+
+  <div>
+    <h3><a href="bacharel.html"  style="color: #D13239; text-decoration: none;" >Ciências de Dados </a></h3>
+    <p><a href="bacharel.html#aprendi-profundo" style="color: black; text-decoration: none;">Aprendizado Profundo</a></p>
+    <p><a href="bacharel.html#Intro-CD" style="color: black; text-decoration: none;"> Introdução a Ciências de Dados</a></p>
+    <p><a href="bacharel.html#process-linguagem" style="color: black; text-decoration: none;"> Processamento de Linguagem Natural</a></p>
+    <p><a href="bacharel.html#redes-neurais" style="color: black; text-decoration: none;"> Redes Neurais</a></p>
+    <p><a href="bacharel.html#tcc-cd" style="color: black; text-decoration: none;"> Trabalho de Conclusão de Curso em Ciências de Dados</a></p>
+    <p><a href="bacharel.html#visao-computa" style="color: black; text-decoration: none;"> Visão Computacional</a></p>
+    <p><a href="bacharel.html#visu-computacional" style="color: black; text-decoration: none;"> Visualização Computacional</a></p>
+
+
+  </div>
+  </div>
+
+
+
+<div class="courses">
+      <div class="course">
+
+<!-- TAB bacharel TECNO -->
+
+  <div>
+    <h3><a href="bacharel-tecno.html"  style="color: #D13239; text-decoration: none;" >Tecnologia </a></h3>
+    <p><a href="bacharel-tecno.html#quali-software" style="color: black; text-decoration: none;">Gerência e Qualidade de Software</a></p>
+    <p><a href="bacharel-tecno.html#seguranca-iinfo" style="color: black; text-decoration: none;"> Segurança da Informação</a></p>
+    <p><a href="bacharel-tecno.html#redes-neurais" style="color: black; text-decoration: none;"> Redes Neurais</a></p>    
+    <p><a href="bacharel-tecno.html#visao-computa" style="color: black; text-decoration: none;"> Visão Computacional</a></p>
+  
+   </div>
+  </div>
+
+</div>
+</div>
+</div>
+</div>
+
+<!-- TAB CICLO -->
+
+ <div class="content " id="ciclo-basico">
+    <div class="courses">
+      <div class="course">
+
+<!-- TAB CICLO-COMPUTAÇÃO -->
+
+  <div> 
+    <h3><a href="ciclo-basico-computacao.html"  style="color: #D13239; text-decoration: none;" > Computação </a></h3>
+    <p><a href="ciclo-basico-computacao.html#algoritimos-pc-1" style="color: black; text-decoration: none;">Algoritmos e Programação de Computadores I</a></p>
+    <p><a href="ciclo-basico-computacao.html#algoritimos-pc-2" style="color: black; text-decoration: none;">Algoritmos e Programação de Computadores II</a></p>
+    <p><a href="ciclo-basico-computacao.html#funda-internet-web" style="color: black; text-decoration: none;">Fundamentos de Internet e Web</a></p>
+    <p><a href="ciclo-basico-computacao.html#funda-mat" style="color: black; text-decoration: none;">Fundamentos Matemáticos para Computação</a></p>
+    <p><a href="ciclo-basico-computacao.html#intro-computacao" style="color: black; text-decoration: none;">  Introdução a Conceitos de Computação (2020)</a></p>
+    <p><a href="ciclo-basico-computacao.html#leitura-prod-text" style="color: black; text-decoration: none;"> Leitura e Produção de textos</a></p>
+    <p><a href="ciclo-basico-computacao.html#pens-computacional" style="color: black; text-decoration: none;">  Pensamento Computacional</a></p>
+   </div>
+  </div>
+
+
+
+
+
+
+<!-- TAB CICLO-MATEMÁTICA -->
+
+      <div class="course">
+
+  <div>
+  <h3><a href="ciclo-basico-matematica.html"  style="color: #D13239; text-decoration: none;" >Matemática </a></h3>
+  <p><a href="ciclo-basico-matematica.html#matema-basica" style="color: black; text-decoration: none;"> Matemática Básica</a></p>
+
+   </div></div>
+
+
+<!-- TAB CICLO-PORTUGUÊS -->
+
+      <div class="course">
+
+        <div>
+        
+    <h3><a href="ciclo-basico-portugues.html"  style="color: #D13239; text-decoration: none;" > Português </a></h3>
+    <p><a href="ciclo-basico-portugues.html#etica-sociedade" style="color: black; text-decoration: none;"> Ética, cidadania e Sociedade</a></p>
+    <p><a href="ciclo-basico-portugues.html#intro-linguistica" style="color: black; text-decoration: none;"> Introdução à Linguística</a></p>
+    <p><a href="ciclo-basico-portugues.html#gramatica-pt-1" style="color: black; text-decoration: none;"> Gramática da Língua Portuguesa I</a></p>
+    <p><a href="ciclo-basico-portugues.html#leitura-prod" style="color: black; text-decoration: none;"> Leitura e Produção de Textos</a></p>
+    <p><a href="ciclo-basico-portugues.html#proj-conhecimento" style="color: black; text-decoration: none;"> Projetos e Métodos para a Produção do Conhecimento</a></p>
+    <p><a href="ciclo-basico-portugues.html#teoria-lite" style="color: black; text-decoration: none;"> Teoria da Literatura (2020)</a></p>
+  
+
+
+
+  </div>
+      </div>
+          </div>
+              </div>
+    
+           
+
+<!-- TAB HUMANAS -->
+
+  <div class="content" id="humanas">
+    <div class="courses">
+      <div class="course">
+
+<!-- TAB PEDAGOGIA -->
+ 
+      
+
+        <h3><a href="pedagogia.html" style="color: #D13239; text-decoration: none;"> Pedagogia</h3>
+        <p><a href="pedagogia.html#alfabetizacao-2" style="color: black; text-decoration: none;">Alfabetização e Letramento</a></p>
+        <p><a href="pedagogia.html#design-edu" style="color: black; text-decoration: none;">Design Educacional (2018.1)</a></p>
+        <p><a href="pedagogia.html#edu-cultura-fdm" style="color: black; text-decoration: none;">Educação e Cultura Corporal: Fundamentos e Práticas</a></p>
+        <p><a href="pedagogia.html#edu-espacos" style="color: black; text-decoration: none;">Educação em Espaços Não-Formais</a></p>
+        <p><a href="pedagogia.html#edu-especial" style="color: black; text-decoration: none;">Educação Especial e LIBRAS</a></p>
+        <p><a href="pedagogia.html#edu-medi-tecno" style="color: black; text-decoration: none;">Educação Mediada por Tecnologias</a></p>
+        <p><a href="pedagogia.html#esta-aplicada" style="color: black; text-decoration: none;">Estatística Aplicada à Educação  (2017.2)</a></p>
+        <p><a href="pedagogia.html#filosofia-edu" style="color: black; text-decoration: none;">Filosofia da Educação</a></p>
+        <p><a href="pedagogia.html#fdm-edu-infantil" style="color: black; text-decoration: none;">Fundamentos da Educação Infantil |</a></p>
+        <p><a href="pedagogia.html#fdm-edu-infantil-2" style="color: black; text-decoration: none;">Fundamentos da Educação Infantil ||</a></p>
+        
+        <p><a href="pedagogia.html#fdm-histo-socio-edu" style="color: black; text-decoration: none;">Fundamentos Históricos, Filosóficos e Sociológicos da Educação</a></p>
+        <p><a href="pedagogia.html#fdm-ciencias-natu" style="color: black; text-decoration: none;">Fundamentos e Práticas no Ensino de Ciências da Natureza</a></p>
+        <p><a href="pedagogia.html#fdm-geo" style="color: black; text-decoration: none;">Fundamentos e Práticas no Ensino de Geografia (2017.2)</a></p>
+        <p><a href="pedagogia.html#fdm-historia" style="color: black; text-decoration: none;">Fundamentos e Práticas no Ensino de História (2017.2)</a></p>
+        <p><a href="pedagogia.html#fdm-mat" style="color: black; text-decoration: none;">Fundamentos e Práticas no Ensino de Matemática</a></p>
+        
+        <p><a href="pedagogia.html#gestao-escolar" style="color: black; text-decoration: none;">Gestão Escolar</a></p>
+        <p><a href="pedagogia.html#histo-edu" style="color: black; text-decoration: none;">História da Educação Escolar</a></p>
+        
+        <p><a href="pedagogia.html#mod-edu" style="color: black; text-decoration: none;">Modelos Pedagógicos em Educação a Distância (2017.2)</a></p>
+        <p><a href="pedagogia.html#socio-edu" style="color: black; text-decoration: none;">Sociologia da Educação</a></p>
+        <p><a href="pedagogia.html#teoria-curriculo" style="color: black; text-decoration: none;">Teorias do Currículo</a></p>
+        <p><a href="pedagogia.html#teoria-aprendizagem" style="color: black; text-decoration: none;">Teorias da Aprendizagem</a></p>
+      
+      </a>
+      </div>
+
+
+<!-- TAB LETRAS -->
+
+      <div class="course">
+
+        <h3><a href="letras.html" style="color: #D13239; text-decoration: none;"> Letras</h3>
+        <p><a href="letras.html#aqui-oralidade" style="color: black; text-decoration: none;"> Aquisição da Linguagem: Oralidade e Escrita | 2019.1</a></p>
+        <p><a href="letras.html#edu-mediada" style="color: black; text-decoration: none;">Educação Mediada por Tecnologias</a></p>
+        <p><a href="letras.html#gramatica-||" style="color: black; text-decoration: none;"> Gramática de Língua Portuguesa II (2019.2)</a></p>
+        <p><a href="letras.html#introducao" style="color: black; text-decoration: none;"> Introdução à Fonética e à Fonologia (2019.1)</a></p>
+        <p><a href="letras.html#lab-texto" style="color: black; text-decoration: none;">Laboratório de Produção Textual</a></p> 
+        <p><a href="letras.html#linguagem-sign" style="color: black; text-decoration: none;">Linguagem e Significação</a></p>
+        <p><a href="letras.html#literatura-cultura" style="color: black; text-decoration: none;">Literatura e Cultura Brasileira</a></p> 
+
+
+
+
+      </a>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- TAB EXATAS -->
+
+  <div class="content" id="exatas">
+    <div class="courses">
+      
+
+<!-- TAB CIENCIAS DE DADOS -->
+
+      <div class="course">
+
+        <h3><a href="cien-dados.html" style="color: #D13239; text-decoration: none;"> Ciências de Dados</h3>
+        <p><a href="cien-dados.html#intro-cd" style="color: black; text-decoration: none;">Introdução a Ciência de Dados (2020.1)</a></p>
+        </a>
+      </div>      
+
+<!-- TAB ENGENHARIA -->
+
+      <div class="course">
+
+        <h3><a href="engenharia.html" style="color: #D13239; text-decoration: none;"> Engenharia </h3>
+        <p><a href="engenharia.html#adm-1" style="color: black; text-decoration: none;">Administração | (7º Bimestre)</a></p>
+        <p><a href="engenharia.html#intro-engenharia" style="color: black; text-decoration: none;">Introdução à Engenharia (1º Bimestre)</a></p>
+        <p><a href="engenharia.html#calculo-1" style="color: black; text-decoration: none;">Cálculo l </a></p>
+        <p><a href="engenharia.html#calculo-1-2" style="color: black; text-decoration: none;">Cálculo l (2º Bimestre)</a></p>
+        <p><a href="engenharia.html#calculo-2-4" style="color: black; text-decoration: none;">Cálculo ll (4º Bimestre)</a></p>
+        <p><a href="engenharia.html#calculo-3" style="color: black; text-decoration: none;">Cálculo lll</a></p>
+
+
+        <p><a href="engenharia.html#ciencia-ambiente"style="color: black; text-decoration: none;">Ciências do Ambiente </a></p>
+        <p><a href="engenharia.html#ciencia-materiais"style="color: black; text-decoration: none;">Ciência dos Materiais (7º Bimestre)</a></p>
+        <p><a href="engenharia.html#economia"style="color: black; text-decoration: none;">Economia (6º Bimestre) </a></p>
+        <p><a href="engenharia.html#estatistica"style="color: black; text-decoration: none;">Estatística </a></p>
+        <p><a href="engenharia.html#estatistica-8"style="color: black; text-decoration: none;">Estatística (8º Bimestre)</a></p>
+        <p><a href="engenharia.html#expressao-grafica-4"style="color: black; text-decoration: none;">Expressão Gráfica (4º Bimestre)</a></p>
+        <p><a href="engenharia.html#fenomenos"style="color: black; text-decoration: none;">Fenômenos de Transporte (07º Bimestre)</a></p>
+        <p><a href="engenharia.html#fisica-1-16"style="color: black; text-decoration: none;">Física l 2016 (2º Bimestre)</a></p>
+        <p><a href="engenharia.html#fisica-1"style="color: black; text-decoration: none;">Física l (2º Bimestre)</a></p>
+        
+        <p><a href="engenharia.html#fisica-2"style="color: black; text-decoration: none;">Física ll (3º Bimestre)</a></p>
+        <p><a href="engenharia.html#fisica-3"style="color: black; text-decoration: none;">Física lll</a></p>
+        <p><a href="engenharia.html#fisica-3-5"style="color: black; text-decoration: none;">Física lll (5º Bimestre)</a></p>
+        <p><a href="engenharia.html#geometria-3"style="color: black; text-decoration: none;">Geometria Analítica e Álgebra Linear (3º Bimestre)</a></p>
+        <p><a href="engenharia.html#higiene-8"style="color: black; text-decoration: none;">Higiene e Segurança do Trabalho (8º Bimestre)</a></p>
+
+
+        <p><a href="engenharia.html#insta-eletricas"style="color: black; text-decoration: none;"> Instalações Elétricas (8º Bimestre)</a></p>
+        <p><a href="engenharia.html#info-1"style="color: black; text-decoration: none;">Informática (1º Bimestre)</a></p>
+        <p><a href="engenharia.html#ingles-1"style="color: black; text-decoration: none;">Inglês I (2º Bimestre)</a></p>
+        <p><a href="engenharia.html#intro-mat"style="color: black; text-decoration: none;">Introdução à Matemática</a></p>
+        <p><a href="engenharia.html#leitura-prod-1"style="color: black; text-decoration: none;">Leitura e Produção de Texto (1º Bimestre)</a></p>
+        
+        <p><a href="engenharia.html#mat-16-1"style="color: black; text-decoration: none;">Matemática 2016 (1º Bimestre)</a></p>
+        <p><a href="engenharia.html#mat-1"style="color: black; text-decoration: none;">Matemática (1º Bimestre)</a></p>
+
+        <p><a href="engenharia.html#mecanica-geral"style="color: black; text-decoration: none;">Mecânica Geral</a></p>
+        <p><a href="engenharia.html#mecanica-geral-6"style="color: black; text-decoration: none;">Mecânica Geral (6º Bimestre)</a></p>
+        <p><a href="engenharia.html#met-6"style="color: black; text-decoration: none;">Métodos Numéricos (6º Bimestre)</a></p>
+        <p><a href="engenharia.html#metodologia-cien"style="color: black; text-decoration: none;">Metodologia Científica (2º Bimestre)</a></p>
+        
+        <p><a href="engenharia.html#programacao-computa-4"style="color: black; text-decoration: none;">Programação de Computadores (4º Bimestre)</a></p>
+        <p><a href="engenharia.html#quimica"style="color: black; text-decoration: none;"> Química (6º Bimestre)</a></p>
+        <p><a href="engenharia.html#resistencia-8"style="color: black; text-decoration: none;"> Resistência dos Materiais (8º Bimestre)</a></p>
+        <p><a href="engenharia.html#sis-info"style="color: black; text-decoration: none;"> Sistemas de Informação (07º Bimestre)</a></p>
+        <p><a href="engenharia.html#sociedade-3"style="color: black; text-decoration: none;"> Sociedade e Cultura (03º Bimestre)</a></p>
+        
+      </div>
+
+
+<!-- TAB ENGENHARIA-COMPUTAÇÃO -->
+
+      <div class="course">
+
+        <h3><a href="engenharia-computacao.html" style="color: #D13239; text-decoration: none;"> Engenharia de Computação</h3>
+        <p><a href="engenharia-computacao.html#adm-2-11" style="color: black; text-decoration: none;">  Administração ll (11º Bimestre)</a></p>
+        <p><a href="engenharia-computacao.html#bd-11" style="color: black; text-decoration: none;">  Banco de Dados (11º Bimestre)</a></p>
+        <p><a href="engenharia-computacao.html#cidades-inteligentes" style="color: black; text-decoration: none;">  Cidades Inteligentes</a></p>
+        <p><a href="engenharia-computacao.html#circuitos-digitais" style="color: black; text-decoration: none;">  Circuitos Digitais (2020.1)</a></p>
+        <p><a href="engenharia-computacao.html#circuitos-eletricos" style="color: black; text-decoration: none;">  Circuitos Elétricos (9º Bimestre)</a></p>
+        <p><a href="engenharia-computacao.html#circuitos-logicos" style="color: black; text-decoration: none;">  Circuitos Lógicos (2018.1)</a></p>
+        <p><a href="engenharia-computacao.html#computacao-grafica-14" style="color: black; text-decoration: none;">  Computação Gráfica (14º Bimestre)</a></p>
+        <p><a href="engenharia-computacao.html#controle-auto-17" style="color: black; text-decoration: none;">  Controle e Automação (17º Bimestre)</a></p>
+        <p><a href="engenharia-computacao.html#direito-16" style="color: black; text-decoration: none;">  Direito (16º Bimestre)</a></p>
+        <p><a href="engenharia-computacao.html#eletro-aplicada-10" style="color: black; text-decoration: none;">  Eletrônica Aplicada (10º Bimestre)</a></p>
+        <p><a href="engenharia-computacao.html#eletro" style="color: black; text-decoration: none;">  Eletrônica Embarcada</a></p>
+        <p><a href="engenharia-computacao.html#eletro-digital-11" style="color: black; text-decoration: none;">  Eletrônica Digital (11º Bimestre)</a></p>
+        <p><a href="engenharia-computacao.html#empree-gestao-11" style="color: black; text-decoration: none;">  Empreendedorismo e Gestão de Empresas (11º Bimestre)</a></p>
+        <p><a href="engenharia-computacao.html#engenha-eco-9" style="color: black; text-decoration: none;"> Engenharia Econômica (9º Bimestre)</a></p>
+        <p><a href="engenharia-computacao.html#engenha-info-17" style="color: black; text-decoration: none;"> Engenharia de Informação (17º Bimestre)</a></p>
+        <p><a href="engenharia-computacao.html#engenha-software-13" style="color: black; text-decoration: none;"> Engenharia de Software (13º Bimestre)</a></p>
+        <p><a href="engenharia-computacao.html#estrategia-plan-10" style="color: black; text-decoration: none;">  Estratégia e Planejamento de Empresas  (10º Bimestre)</a></p>
+        <p><a href="engenharia-computacao.html#estrutura-dados-9" style="color: black; text-decoration: none;">  Estrutura de Dados  (09º Bimestre)</a></p>
+        <p><a href="engenharia-computacao.html#fisica-mov" style="color: black; text-decoration: none;">  Física do Movimento (2020.1)</a></p>
+        <p><a href="engenharia-computacao.html#fdm-mat-11" style="color: black; text-decoration: none;">  Fundamentos Matemáticos da Computação (11º Bimestre)</a></p>
+        <p><a href="engenharia-computacao.html#gerencia-quali-16" style="color: black; text-decoration: none;">Gerência e Qualidade de Software (16º Bimestre)</a></p>
+        <p><a href="engenharia-computacao.html#gestao-proj-15" style="color: black; text-decoration: none;">Gestão de Projetos (15° Bimestre)</a></p>
+        <p><a href="engenharia-computacao.html#impactos-computacao" style="color: black; text-decoration: none;">  Impactos da Computação na Sociedade</a></p>
+        <p><a href="engenharia-computacao.html#ia-18" style="color: black; text-decoration: none;">  Inteligência Artificial (18º Bimestre)</a></p>
+        <p><a href="engenharia-computacao.html#interfaces-hum-com-16" style="color: black; text-decoration: none;"> Interfaces Humano-Computador (16° Bimestre)</a></p>
+        <p><a href="engenharia-computacao.html#intro-sis-comu" style="color: black; text-decoration: none;"> Introdução aos Sistemas de Comunicação</a></p>
+        <p><a href="engenharia-computacao.html#linguagens-compi-18" style="color: black; text-decoration: none;">  Linguagens e Compiladores  (18° Bimestre)</a></p>
+        <p><a href="engenharia-computacao.html#microeletronica-12" style="color: black; text-decoration: none;"> Microeletrônica (12º Bimestre)</a></p>
+        <p><a href="engenharia-computacao.html#mecanica" style="color: black; text-decoration: none;"> Mecânica dos Sólidos e dos Fluidos</a></p>
+        <p><a href="engenharia-computacao.html#metodos-num-6" style="color: black; text-decoration: none;"> Métodos Numéricos (06º Bimestre)</a></p>
+        <p><a href="engenharia-computacao.html#modelos-computacao-13" style="color: black; text-decoration: none;"> Modelos Probabilísticos para Computação (13º Bimestre)</a></p>
+        <p><a href="engenharia-computacao.html#negocios" style="color: black; text-decoration: none;"> Negócios Online (18º Bimestre)</a></p>
+        <p><a href="engenharia-computacao.html#organi-computa-10" style="color: black; text-decoration: none;"> Organização de Computadores (10º Bimestre)</a></p>
+        <p><a href="engenharia-computacao.html#pensamento-computacional" style="color: black; text-decoration: none;"> Pensamento Computacional</a></p>
+        <p><a href="engenharia-computacao.html#proces-digital" style="color: black; text-decoration: none;"> Processamento Digital de Sinais</a></p>
+        <p><a href="engenharia-computacao.html#poo-12" style="color: black; text-decoration: none;"> Programação Orientada a Objetos (12º Bimestre)</a></p>
+        <p><a href="engenharia-computacao.html#proj-analise" style="color: black; text-decoration: none;"> Projeto e Análise de Algoritmos </a></p>
+        <p><a href="engenharia-computacao.html#proj-analise-13" style="color: black; text-decoration: none;"> Projeto e Análise de Algoritmos (13º Bimestre) </a></p>
+        <p><a href="engenharia-computacao.html#proj-digital-12" style="color: black; text-decoration: none;"> Projeto Digital (12º Bimestre) </a></p>
+        <p><a href="engenharia-computacao.html#proj-sis-computacionais" style="color: black; text-decoration: none;"> Projeto de Sistemas Computacionais (14º Bimestre)</a></p>
+        <p><a href="engenharia-computacao.html#proj-prog-17" style="color: black; text-decoration: none;"> Projeto e Programação de Jogos (17º Bimestre)</a></p>
+        <p><a href="engenharia-computacao.html#propriedade-intelecto-17" style="color: black; text-decoration: none;"> Propriedade Intelectual (17º Bimestre)</a></p>
+        <p><a href="engenharia-computacao.html#seg-info-16" style="color: black; text-decoration: none;"> Segurança da Informação (16º Bimestre)</a></p>
+        <p><a href="engenharia-computacao.html#sis-distribuidos-15" style="color: black; text-decoration: none;"> Sistemas Distribuídos (15º Bimestre)</a></p>
+        <p><a href="engenharia-computacao.html#sis-embarcados" style="color: black; text-decoration: none;"> Sistemas Embarcados</a></p>
+        <p><a href="engenharia-computacao.html#sis-operacionais-12" style="color: black; text-decoration: none;"> Sistemas Operacionais (12º Bimestre)</a></p>
+        <p><a href="engenharia-computacao.html#tecno-dados" style="color: black; text-decoration: none;"> Tecnologias de Comunicação de Dados</a></p>
+        <p><a href="engenharia-computacao.html#top-avancados-1" style="color: black; text-decoration: none;"> Tópicos Avançados em Engenharia de Computação I</a></p>
+        <p><a href="engenharia-computacao.html#top-avancados-2" style="color: black; text-decoration: none;"> Tópicos Avançados em Engenharia de Computação I</a></p>
+
+
+         
+      </div>
+
+
+<!-- TAB ENGENHARIA-PRODUÇÃO -->
+
+      <div class="course">
+
+        <h3><a href="engenharia-produção.html" style="color: #D13239; text-decoration: none;"> Engenharia de Produção</h3>
+        <p><a href="engenharia-produção.html#adm-2" style="color: black; text-decoration: none;">Administração ll (11º Bimestre)</a></p>
+        <p><a href="engenharia-produção.html#automacao-industrial-16" style="color: black; text-decoration: none;">Automação Industrial (16º Bimestre)</a></p>
+        <p><a href="engenharia-produção.html#confiabilidade-9" style="color: black; text-decoration: none;"> Confiabilidade (9º Bimestre)</a></p>
+        <p><a href="engenharia-produção.html#controle-estatistica-14" style="color: black; text-decoration: none;"> Controle Estatístico de Processo (14º Bimestre)</a></p>
+        <p><a href="engenharia-produção.html#desenho-tecnico" style="color: black; text-decoration: none;">Desenho técnico assistido por computador</a></p>
+        <p><a href="engenharia-produção.html#direito-16" style="color: black; text-decoration: none;">Direito (16º Bimestre)</a></p>
+        <p><a href="engenharia-produção.html#economia-2-11" style="color: black; text-decoration: none;">Economia ll (11º Bimestre)</a></p>
+        <p><a href="engenharia-produção.html#empree" style="color: black; text-decoration: none;">Empreendedorismo (18º Bimestre)</a></p>
+
+        <p><a href="engenharia-produção.html#engenharia-eco-12" style="color: black; text-decoration: none;">Engenharia Econômica e Financeira (12º Bimestre)</a></p>
+        <p><a href="engenharia-produção.html#engenharia-metodos-9" style="color: black; text-decoration: none;">Engenharia de Métodos (9º Bimestre)</a></p>
+        <p><a href="engenharia-produção.html#engenharia-sus" style="color: black; text-decoration: none;">Engenharia da Sustentabilidade (18º Bimestre)</a></p>
+        <p><a href="engenharia-produção.html#ergonomia" style="color: black; text-decoration: none;">Ergonomia (13º Bimestre)</a></p>
+        <p><a href="engenharia-produção.html#ergonomia-saude" style="color: black; text-decoration: none;">Ergonomia, Saúde e Higiene do Trabalho </a></p>
+        <p><a href="engenharia-produção.html#estrategia-mkt-17" style="color: black; text-decoration: none;">Estratégia Organizacional e Marketing (17º Bimestre)</a></p>
+        <p><a href="engenharia-produção.html#gerenciamento" style="color: black; text-decoration: none;">Gerenciamento de Projetos (15º Bimestre)</a></p>
+        <p><a href="engenharia-produção.html#gestao-ambiental" style="color: black; text-decoration: none;">Gestão Ambiental (2019.1)</a></p>
+        <p><a href="engenharia-produção.html#gestao-cadeia-15" style="color: black; text-decoration: none;"> Gestão da Cadeia de Suprimento (15º Bimestre)</a></p>
+        <p><a href="engenharia-produção.html#gestao-conhecimento-12" style="color: black; text-decoration: none;">Gestão do Conhecimento (12º Bimestre)</a></p>
+        <p><a href="engenharia-produção.html#gestao-custos-15" style="color: black; text-decoration: none;">Gestão de Custos (15º Bimestre)</a></p>
+        
+        <p><a href="engenharia-produção.html#gestao-financeira-17" style="color: black; text-decoration: none;">Gestão Financeira e de Riscos (17º Bimestre)</a></p>
+        <p><a href="engenharia-produção.html#gestao-info-12" style="color: black; text-decoration: none;">Gestão da Informação (12º Bimestre)</a></p>
+        
+        <p><a href="engenharia-produção.html#gestao-projeto" style="color: black; text-decoration: none;">Gestão de Projetos (2019.1)</a></p>
+        <p><a href="engenharia-produção.html#gestao-qualidade" style="color: black; text-decoration: none;">Gestão da Qualidade (13º Bimestre)</a></p>
+        <p><a href="engenharia-produção.html#gestao-recursos" style="color: black; text-decoration: none;">Gestão de Recursos (17º Bimestre)</a></p>
+        <p><a href="engenharia-produção.html#insta-industrais-16" style="color: black; text-decoration: none;">Instalações Industriais (16º Bimestre)</a></p>
+        <p><a href="engenharia-produção.html#intro-producao" style="color: black; text-decoration: none;">Introdução à Engenharia de Produção</a></p>
+        <p><a href="engenharia-produção.html#jogos-empresa" style="color: black; text-decoration: none;">Jogos de Empresa</a></p>
+        <p><a href="engenharia-produção.html#logistica-14" style="color: black; text-decoration: none;">Logística (14º Bimestre)</a></p>
+        <p><a href="engenharia-produção.html#materiais-processos" style="color: black; text-decoration: none;">Materiais e Processos de Fabricação para Engenharia de Produção</a></p>
+        <p><a href="engenharia-produção.html#modelagem-simulacao-11" style="color: black; text-decoration: none;">Modelagem e Simulação (11º Bimestre)</a></p>
+        <p><a href="engenharia-produção.html#org-industrial-11" style="color: black; text-decoration: none;">Organização Industrial (11º Bimestre)</a></p>
+        <p><a href="engenharia-produção.html#org-trabalho-13" style="color: black; text-decoration: none;">Organização do Trabalho (13º Bimestre)</a></p>
+
+        <p><a href="engenharia-produção.html#plan-controle-1-13" style="color: black; text-decoration: none;">Planejamento e Controle de Produção I (13º Bimestre)</a></p>
+        <p><a href="engenharia-produção.html#plan-controle-2-14" style="color: black; text-decoration: none;">Planejamento e Controle de Produção II (14º Bimestre)</a></p>
+        <p><a href="engenharia-produção.html#plan-instalacoes-15" style="color: black; text-decoration: none;">Planejamento de Instalações(15º Bimestre)</a></p>
+        <p><a href="engenharia-produção.html#pesq-operacional-1-9" style="color: black; text-decoration: none;">Pesquisa Operacional l (9º Bimestre)</a></p>
+        <p><a href="engenharia-produção.html#pesq-operacional-2-10" style="color: black; text-decoration: none;">Pesquisa Operacional ll (10º Bimestre)</a></p>
+        
+        <p><a href="engenharia-produção.html#proc-indus-10" style="color: black; text-decoration: none;">Processos Industriais e Fabricação (10º Bimestre)</a></p>
+        <p><a href="engenharia-produção.html#proj-dp-16" style="color: black; text-decoration: none;">Projeto e Desenvolvimento do Produto (16º Bimestre)</a></p>
+        <p><a href="engenharia-produção.html#psico-social-10" style="color: black; text-decoration: none;"> Psicologia e Sociologia do Trabalho (10º Bimestre)</a></p>
+        <p><a href="engenharia-produção.html#quimica-tecno" style="color: black; text-decoration: none;"> Química Tecnológica e Ambiental</a></p>
+        <p><a href="engenharia-produção.html#sis-manu" style="color: black; text-decoration: none;">Sistemas de Manutenção (17º Bimestre)</a></p>
+        <p><a href="engenharia-produção.html#sis-producao-12" style="color: black; text-decoration: none;">Sistemas de Produção (12º Bimestre)</a></p>
+
+
+
+
+
+      </div>
+
+    <div class="course">
+
+        <h3><a href="mat.html" style="color: #D13239; text-decoration: none;"> Matemática</h3>
+        <p><a href="mat.html#calculo1" style="color: black; text-decoration: none;">Cálculo I (2019.1)</a></p>
+        <p><a href="mat.html#educacao-especial-l" style="color: black; text-decoration: none;">Educação Especial e Libras</a></p>
+        <p><a href="mat.html#educacao-mediada" style="color: black; text-decoration: none;">Educação Mediada por Tecnologias</a></p>
+        <p><a href="mat.html#elementos" style="color: black; text-decoration: none;">Elementos de Álgebra (2017.2)</a></p>
+        <p><a href="mat.html#fisica-geral" style="color: black; text-decoration: none;">Física Geral (2019.1)</a></p>
+        <p><a href="mat.html#fund-ensino-mat" style="color: black; text-decoration: none;">Fundamentos no Ensino de Matemática</a></p>
+        <p><a href="mat.html#geometria-espacial" style="color: black; text-decoration: none;">Geometria Espacial (2017.2)</a></p>
+        <p><a href="mat.html#mat-basi" style="color: black; text-decoration: none;">Matemática Básica</a></p>
+        <p><a href="mat.html#meto-pesquisa" style="color: black; text-decoration: none;">Metodologia para a Pesquisa em Educação</a></p>
+
+
+        </a>
+      </div>    
+
+      </div>
+    </div>
+  </div>
+
+
+<!-- TAB SOCIAIS -->
+
+  <div class="content" id="sociais">
+    <div class="courses">
+      <div class="course">
+
+<!-- TAB SOCIAIS-CONTABEIS -->
+        <div>
+        <h3><a href="ciencias-contabeis.html" style="color: #D13239; text-decoration: none;"> Ciências Contábeis</h3>
+        <p><a href="ciencias-contabeis.html#contabilidade-custo" style="color: black; text-decoration: none;">Contabilidade de Custos (2019.1)</a></p>
+        <p><a href="ciencias-contabeis.html#contabilidade-geral" style="color: black; text-decoration: none;">Contabilidade Geral (2019.1)</a></p>
+        <p><a href="ciencias-contabeis.html#contabilidade-tributaria" style="color: black; text-decoration: none;">Contabilidade Tributária (2019.1)</a></p>
+        <p><a href="ciencias-contabeis.html#financas" style="color: black; text-decoration: none;">Finanças Empresariais (2019.1)</a></p></a>
+      
+      </div>
+      </div>
+      
+<!-- TAB PROCESSOS -->
+<div class="courses">
+      <div class="course">      
+
+<div>
+        <h3><a href="processos-gerenciais.html" style="color: #D13239; text-decoration: none;"> Processos Gerenciais</h3>
+        <p><a href="processos-gerenciais.html#processos" style="color: black; text-decoration: none;">Técnicas de Negociação e Resolução de conflitos</a></p>
+        
+      
+      </div>
+      </div>
+    </div>
+
+          
+<!-- TAB PROCESSOS -->
+<div class="courses">
+      <div class="course">      
+
+<div>
+        <h3><a href="gestao-publica.html" style="color: #D13239; text-decoration: none;"> Gestão Pública </h3>
+        <p><a href="gestao-publica.html#cont-publica" style="color: black; text-decoration: none;">Contabilidade Pública</a></p>
+        <p><a href="gestao-publica.html#comu-expre-reda" style="color: black; text-decoration: none;">Comunicação, expressão e redação oficial (1º Bimestre) </a></p>
+        
+        <p><a href="gestao-publica.html#direito-const-6" style="color: black; text-decoration: none;">Direito Constitucional e Administrativo (6º Bimestre)</a></p>
+        <p><a href="gestao-publica.html#estat-6" style="color: black; text-decoration: none;">Estatística (6º Bimestre) </a></p>
+
+        <p><a href="gestao-publica.html#eco-3" style="color: black; text-decoration: none;">Economia e Setor Público (3º Bimestre) </a></p>
+        <p><a href="gestao-publica.html#gestao-doc" style="color: black; text-decoration: none;">Gestão Documental (2018.1)</a></p>
+        <p><a href="gestao-publica.html#gestao-processos" style="color: black; text-decoration: none;">Gestão por Processos (2018.1)</a></p>
+        <p><a href="gestao-publica.html#gestao-c-c" style="color: black; text-decoration: none;">Gestão de Contratos e Convênios (2018.1)</a></p>
+        
+        <p><a href="gestao-publica.html#gestao-pessoas-5" style="color: black; text-decoration: none;">Gestão de Pessoas no Setor Público (5º Bimestre)</a></p>
+
+        <p><a href="gestao-publica.html#ing-1" style="color: black; text-decoration: none;">Inglês l</a></p>
+        <p><a href="gestao-publica.html#ing-2" style="color: black; text-decoration: none;">Inglês ll</a></p>
+        <p><a href="gestao-publica.html#ing-3-3" style="color: black; text-decoration: none;">Inglês III (3º Bimestre)</a></p>
+        <p><a href="gestao-publica.html#ing-4-4" style="color: black; text-decoration: none;">Inglês IV (4º Bimestre)</a></p>
+        <p><a href="gestao-publica.html#ing-V-5" style="color: black; text-decoration: none;">Inglês V (5º Bimestre)</a></p>
+        <p><a href="gestao-publica.html#ing-vi-6" style="color: black; text-decoration: none;">Inglês VI (6º Bimestre)</a></p>
+        
+        <p><a href="gestao-publica.html#logistica-materias" style="color: black; text-decoration: none;">Logística e Gestão de Materiais (2018.1)</a></p>
+
+        <p><a href="gestao-publica.html#mat-elementar" style="color: black; text-decoration: none;">Matemática Elementar </a></p>
+        <p><a href="gestao-publica.html#mat-elementar-2" style="color: black; text-decoration: none;">Matemática Elementar (2º Bimestre) </a></p>
+        <p><a href="gestao-publica.html#mat-financeira-4" style="color: black; text-decoration: none;">Matemática Financeira (4º Bimestre) </a></p>
+        <p><a href="gestao-publica.html#met-pesquisa-3" style="color: black; text-decoration: none;">Metodologia de Pesquisa Científico-Tecnológica (3º Bimestre) </a></p>
+        <p><a href="gestao-publica.html#politicas-publicas-4" style="color: black; text-decoration: none;">Políticas Públicas (4º Bimestre) </a></p>
+
+        
+      
+      </div>
+      </div>
+    </div>
+
+      </div>
+    </div>
+  </div>
+
+      </div>
+    </div>
+
+
+
+
+  <!-- TAB EIXOS -->
+    <div class="content" id="eixos">
+
+<div class="courses">
+<div class="course">      
+
+<div>
+        <h3><a href="eixos-licen.html" style="color: #D13239; text-decoration: none;"> Eixos de Licenciaturas</h3>
+        <p><a href="eixos-licen.html#avaliacao-edu" style="color: black; text-decoration: none;">Avaliação Educacional e Gestão da Aprendizagem</a></p>
+        <p><a href="eixos-licen.html#avaliacao-edu-2" style="color: black; text-decoration: none;">Avaliação Educacional e Gestão da Aprendizagem II</a></p>
+        <p><a href="eixos-licen.html#fdm-historicos" style="color: black; text-decoration: none;">Fundamentos Históricos, Filosóficos e Sociológicos da Educação</a></p>
+        <p><a href="eixos-licen.html#letra-libras" style="color: black; text-decoration: none;">Letramento em Libras para Professores</a></p>
+        
+      </div>
+      </div>
+
+
+
+      <div class="course">      
+
+<div>
+        <h3><a href="eixos-negocios.html" style="color: #D13239; text-decoration: none;"> Eixos de Negócios</h3>
+        <p><a href="eixos-negocios.html#aprend-gestao" style="color: black; text-decoration: none;">Aprendizagem e Gestão do Conhecimento</a></p>
+        <p><a href="eixos-negocios.html#comportamento-humano" style="color: black; text-decoration: none;">Comportamento Humano nas Organizações</a></p>
+        <p><a href="eixos-negocios.html#estatistica-apli" style="color: black; text-decoration: none;">Estatística Aplicada aos Negócios</a></p>
+        <p><a href="eixos-negocios.html#estrategias-finan" style="color: black; text-decoration: none;">Estratégias Financeiras</a></p>
+        <p><a href="eixos-negocios.html#estudos-org" style="color: black; text-decoration: none;">Estudos Organizacionais</a></p>
+        <p><a href="eixos-negocios.html#ferramenta-analise" style="color: black; text-decoration: none;">Ferramentas de Análise e Business Intelligence</a></p>
+        <p><a href="eixos-negocios.html#gestao-contabil" style="color: black; text-decoration: none;">Gestão Contábil</a></p>
+        <p><a href="eixos-negocios.html#industria-4" style="color: black; text-decoration: none;">Indústria 4.0</a></p>
+        
+        <p><a href="eixos-negocios.html#mat-financeira" style="color: black; text-decoration: none;">Matemática Financeira</a></p>
+        <p><a href="eixos-negocios.html#org-modelos" style="color: black; text-decoration: none;">Organizações digitais e modelos de negócios</a></p>
+        <p><a href="eixos-negocios.html#teoria-digital" style="color: black; text-decoration: none;">Teoria Econômica e Economia Digital</a></p>
+      
+      </div>
+      </div>
+
+ <div class="course">
+
+        <h3><a href="eixos-computacao.html" style="color: #D13239; text-decoration: none;"> Eixos de Computação</h3>
+        <p><a href="eixos-computacao.html#algoritimos-programacao" style="color: black; text-decoration: none;"> Algoritimos e Programação de Computadores I</a></p>
+        <p><a href="eixos-computacao.html#bd" style="color: black; text-decoration: none;"> Banco de Dados (2020.1)</a></p>
+        <p><a href="eixos-computacao.html#calculo-1" style="color: black; text-decoration: none;">  Cálculo I</a></p>
+        <p><a href="eixos-computacao.html#desenvolvimento-web" style="color: black; text-decoration: none;">  Desenvolvimento Web (2020.1)</a></p>
+        <p><a href="eixos-computacao.html#engenharia-software" style="color: black; text-decoration: none;">  Engenharia de Software</a></p>
+        <p><a href="eixos-computacao.html#estatisticas-prob" style="color: black; text-decoration: none;">  Estatística e Probabilidade</a></p>
+        <p><a href="eixos-computacao.html#estrutura-dados" style="color: black; text-decoration: none;">  Estruturas de Dados</a></p>
+        <p><a href="eixos-computacao.html#estrutura" style="color: black; text-decoration: none;">  Estruturas de Dados (2020.1)</a></p>
+        <p><a href="eixos-computacao.html#fdm-internet-web" style="color: black; text-decoration: none;">  Fundamentos de Internet e Web</a></p>
+        <p><a href="eixos-computacao.html#formacao" style="color: black; text-decoration: none;">  Formação Profissional em Computação (2020.1)</a></p>
+        <p><a href="eixos-computacao.html#gestao-inova" style="color: black; text-decoration: none;">  Gestão da Inovação e Desenvolvimento de Produtos</a></p>
+        <p><a href="eixos-computacao.html#gestao-proj" style="color: black; text-decoration: none;">  Gestão de Projetos</a></p>
+        <p><a href="eixos-computacao.html#infra-rn" style="color: black; text-decoration: none;"> Infraestrutura para Sistemas de Software: Redes, Nuvem (2020.1)</a></p>
+        
+        <p><a href="eixos-computacao.html#poo" style="color: black; text-decoration: none;"> Programação Orientada a Objetos (2020.1)</a></p>
+        <p><a href="eixos-computacao.html#sistemas-computa" style="color: black; text-decoration: none;">  Sistemas Computacionais (2020.1)</a></p>
+ 
+      
+      
+      </div>
+    
+    </div>
+      </div>
+
+
+  <!-- TAB LICENCIATURAS -->
+
+
+    <div class="content" id="licenciaturas">
+    <div class="courses">
+    <div class="course">
+
+
+    <h3><a href="licen-bio.html" style="color: #D13239; text-decoration: none;"> Biologia </h3>
+        <p><a href="licen-bio.html#biologia-geral" style="color: black; text-decoration: none;">Biologia Geral (6º Bimestre)</a></p>
+        <p><a href="licen-bio.html#celulas-tecidos-9" style="color: black; text-decoration: none;">Células e Tecidos (9º Bimestre)</a></p>
+        <p><a href="licen-bio.html#diatica-biologia-10" style="color: black; text-decoration: none;">Didática para Ciências e Biologia (10º Bimestre)</a></p>
+        <p><a href="licen-bio.html#ecologia-13" style="color: black; text-decoration: none;">Ecologia (13º Bimestre)</a></p>
+        <p><a href="licen-bio.html#evolucao-14" style="color: black; text-decoration: none;">Evolução (14º Bimestre)</a></p>
+        <p><a href="licen-bio.html#genetica-13" style="color: black; text-decoration: none;">Genética (13º Bimestre)</a></p>
+        <p><a href="licen-bio.html#genetica-biologia" style="color: black; text-decoration: none;">Genética e Biologia Molecular (14º Bimestre)</a></p>
+        <p><a href="licen-bio.html#microbiologia-15" style="color: black; text-decoration: none;">Microbiologia e Imunologia (15º Bimestre)</a></p>
+        <p><a href="licen-bio.html#morfologia-vegetal" style="color: black; text-decoration: none;">Morfologia Vegetal (11º Bimestre)</a></p>
+        
+        <p><a href="licen-bio.html#praticas-ensino-bio-1" style="color: black; text-decoration: none;">Práticas para o Ensino de Biologia l (11º Bimestre)</a></p>
+        <p><a href="licen-bio.html#praticas-ensino-bio-2" style="color: black; text-decoration: none;">Práticas para o Ensino de Biologia ll (13º Bimestre)</a></p>
+        <p><a href="licen-bio.html#praticas-ensino-bio-3" style="color: black; text-decoration: none;">Práticas para o Ensino de Biologia lll (15º Bimestre)</a></p>
+        <p><a href="licen-bio.html#saneamento-ambientais" style="color: black; text-decoration: none;">Saneamento e Recuperação Ambientais (16º Bimestre)</a></p>
+        
+        <p><a href="licen-bio.html#taxonomia-14" style="color: black; text-decoration: none;">Taxonomia Vegetal (14º Bimestre)</a></p>
+        <p><a href="licen-bio.html#topicos-avancados" style="color: black; text-decoration: none;">Tópicos Avançados em Biologia (16º Bimestre)</a></p>
+        
+        <p><a href="licen-bio.html#zoo-invertebrados-9" style="color: black; text-decoration: none;">Zoologia dos Invertebrados (9º Bimestre)</a></p>
+        <p><a href="licen-bio.html#zoo-invertebrados-12" style="color: black; text-decoration: none;">Zoologia dos Invertebrados (12º Bimestre)</a></p>
+      
+      
+      </div>
+
+
+
+    <div class="course">
+
+    <h3><a href="licen-fisica.html" style="color: #D13239; text-decoration: none;"> Física </h3>
+        <p><a href="licen-fisica.html#didatica" style="color: black; text-decoration: none;">Didática para Ciências e Física (10º Bimestre)</a></p>
+        <p><a href="licen-fisica .html#eletromagnetismo" style="color: black; text-decoration: none;">Eletromagnetismo (14º Bimestre)</a></p>
+        <p><a href="licen-fisica.html#eletromagnetismo-avancado" style="color: black; text-decoration: none;">Eletromagnetismo Avançado (16º Bimestre)</a></p>
+        <p><a href="licen-fisica.html#estrutura-materia" style="color: black; text-decoration: none;">Estrutura da Matéria (15º Bimestre)</a></p>
+        
+        <p><a href="licen-fisica.html#fisica-8" style="color: black; text-decoration: none;">Física Geral (8º Bimestre)</a></p>
+        <p><a href="licen-fisica.html#fisica-mat" style="color: black; text-decoration: none;">Física-Matemática (12º Bimestre)</a></p>
+        <p><a href="licen-fisica.html#fisica-quantica" style="color: black; text-decoration: none;">Física Quântica (14º Bimestre)</a></p>
+        <p><a href="licen-fisica.html#geometria-analitica" style="color: black; text-decoration: none;">Geometria Analítica (10º Bimestre)</a></p>
+        <p><a href="licen-fisica.html#mecanica-avancada" style="color: black; text-decoration: none;">Mecânica Avançada (13º Bimestre)</a></p>
+        <p><a href="licen-fisica.html#mecanica-fluidos" style="color: black; text-decoration: none;">Mecânica dos Fluidos (12º Bimestre)</a></p>
+        <p><a href="licen-fisica.html#optica" style="color: black; text-decoration: none;">Óptica (11º Bimestre)</a></p>
+        <p><a href="licen-fisica.html#praticas-fisica-1" style="color: black; text-decoration: none;">Práticas para o Ensino de Física l (11º Bimestre)</a></p>
+        <p><a href="licen-fisica.html#praticas-fisica-2" style="color: black; text-decoration: none;">Práticas para o Ensino de Física ll (13º Bimestre)</a></p>
+        <p><a href="licen-fisica.html#praticas-fisica-3" style="color: black; text-decoration: none;">Práticas para o Ensino de Física lll (15º Bimestre)</a></p>
+
+        <p><a href="licen-fisica.html#teoria-relatividade-16" style="color: black; text-decoration: none;">Teoria da Relatividade (16º Bimestre)</a></p>
+        <p><a href="licen-fisica.html#termo-15" style="color: black; text-decoration: none;">Termodinâmica e Mecânica Estatística (15º Bimestre)</a></p>
+        <p><a href="licen-fisica.html#topicos-avancados" style="color: black; text-decoration: none;">Tópicos Avançados em Física (16º Bimestre)</a></p>
+        
+ 
+    </div>
+
+
+    <div class="course">      
+
+
+        <h3><a href="licen-letras.html" style="color: #D13239; text-decoration: none;"> Letras</h3>
+
+
+        <p><a href="licen-letras.html#edu-especial" style="color: black; text-decoration: none;">Educação Especial e Inclusiva</a></p>
+        <p><a href="licen-letras.html#sintaxe" style="color: black; text-decoration: none;">Gramática de Língua Portuguesa: Sintaxe</a></p>
+
+        <p><a href="licen-letras.html#teoria-leitura" style="color: black; text-decoration: none;">Teoria da Leitura</a></p>
+        <p><a href="licen-letras.html#calculo-3" style="color: black; text-decoration: none;">Cálculo lll (11º Bimestre)</a></p>
+    
+  </div>
+
+
+   <div class="course">      
+
+
+        <h3><a href="licenciatura.html" style="color: #D13239; text-decoration: none;"> Licenciaturas</h3>
+        <p><a href="licenciatura.html#didatica" style="color: black; text-decoration: none;">Didática</a></p>
+        <p><a href="licenciatura.html#edu-especial" style="color: black; text-decoration: none;">Educação Especial e Libras</a></p>
+        <p><a href="licenciatura.html#escola-cultura" style="color: black; text-decoration: none;">Escola e Cultura</a></p>
+        <p><a href="licenciatura.html#estagio-supervisionado" style="color: black; text-decoration: none;">Estágio Supervisionado em Alfabetização</a></p>
+        <p><a href="licenciatura.html#estagio-supervisionado-geo" style="color: black; text-decoration: none;">Estágio Supervisionado em Geografia e História no Ensino Fundamental I</a></p>
+        <p><a href="licenciatura.html#estagio-supervisionado-mat" style="color: black; text-decoration: none;">Estágio Supervisionado em Matemática e Ciências no Ensino Fundamental I</a></p>
+        <p><a href="licenciatura.html#fdm-histo-filo" style="color: black; text-decoration: none;">Fundamentos Históricos, Filosóficos e Sociológicos da Educação</a></p>
+        <p><a href="licenciatura.html#historia-edu" style="color: black; text-decoration: none;">História da Educação</a></p>
+        <p><a href="licenciatura.html#historia-mat" style="color: black; text-decoration: none;">História da Matemática</a></p>
+        <p><a href="licenciatura.html#mat-basica" style="color: black; text-decoration: none;">Matemática Básica</a></p>
+        <p><a href="licenciatura.html#metodologias-ativas" style="color: black; text-decoration: none;">Metodologias Ativas de Aprendizagem: Projetos Interdisciplinares</a></p>
+        <p><a href="licenciatura.html#politicas-edu" style="color: black; text-decoration: none;">Políticas Educacionais, Estrutura e Organização da Educação Básica</a></p>
+        <p><a href="licenciatura.html#prod-comunicacao" style="color: black; text-decoration: none;">Produção de Texto e Comunicação</a></p>
+        <p><a href="licenciatura.html#psico-edu" style="color: black; text-decoration: none;">Psicologia da Educação</a></p>
+        <p><a href="licenciatura.html#teorias-aprend" style="color: black; text-decoration: none;">Teorias da Aprendizagem</a></p> 
+        <p><a href="licenciatura.html#teorias-curriculo" style="color: black; text-decoration: none;">Teorias do Currículo</a></p> 
+        <p><a href="licenciatura.html#teorias-curriculo-19" style="color: black; text-decoration: none;">Teorias do Currículo (2019.2)</a></p> 
+  </div>
+
+
+    <div class="course">      
+
+
+        <h3><a href="licen-mat.html" style="color: #D13239; text-decoration: none;"> Matemática</h3>
+
+        <p><a href="licen-mat.html#algebra-linear" style="color: black; text-decoration: none;">Álgebra Linear (14º Bimestre)</a></p>
+        <p><a href="licen-mat.html#calculo-1" style="color: black; text-decoration: none;">Cálculo l (6º Bimestre)</a></p>
+        <p><a href="licen-mat.html#calculo-2" style="color: black; text-decoration: none;">Cálculo ll (9º Bimestre)</a></p>
+        <p><a href="licen-mat.html#calculo-3" style="color: black; text-decoration: none;">Cálculo lll (11º Bimestre)</a></p>
+        <p><a href="licen-mat.html#calculo-iv" style="color: black; text-decoration: none;">Cálculo lV (13º Bimestre)</a></p>
+        <p><a href="licen-mat.html#calculo-numerico" style="color: black; text-decoration: none;">Cálculo Numérico (12º Bimestre)</a></p>
+        <p><a href="licen-mat.html#design" style="color: black; text-decoration: none;">Design Educacional</a></p>
+        <p><a href="licen-mat.html#didatica-mat-" style="color: black; text-decoration: none;">Didática da Matemática </a></p>
+        <p><a href="licen-mat.html#didatica-mat" style="color: black; text-decoration: none;">Didática para o Ensino de Matemática (10º Bimestre)</a></p>
+        <p><a href="licen-mat.html#educacao-inclusao" style="color: black; text-decoration: none;">Educação e Inclusão Social (05º Bimestre)</a></p>
+        <p><a href="licen-mat.html#educacao-eja" style="color: black; text-decoration: none;">Educação de Jovens e Adultos (EJA)</a></p>
+        <p><a href="licen-mat.html#educacao-mat" style="color: black; text-decoration: none;">Educação Matemática</a></p>
+
+        <p><a href="licen-mat.html#elementos-15" style="color: black; text-decoration: none;">Elementos de Álgebra (15º Bimestre)</a></p>
+        <p><a href="licen-mat.html#estatistica-16" style="color: black; text-decoration: none;">Estatística e Probabilidade (16º Bimestre)</a></p>
+        <p><a href="licen-mat.html#fdm-historico" style="color: black; text-decoration: none;">Fundamentos Históricos, Filosóficos e Sociológicos da Educação</a></p>
+        <p><a href="licen-mat.html#fdm-mat-elementar" style="color: black; text-decoration: none;">Fundamentos da Matemática Elementar</a></p>
+        <p><a href="licen-mat.html#geometria-euclidiana" style="color: black; text-decoration: none;">Geometria Euclidiana Plana</a></p>
+        <p><a href="licen-mat.html#geometria-espacial" style="color: black; text-decoration: none;">Geometria Espacial (16º Bimestre)</a></p>
+        <p><a href="licen-mat.html#geometria-plana" style="color: black; text-decoration: none;">Geometria Plana e Desenho Geométrico (14º Bimestre)</a></p>
+        <p><a href="licen-mat.html#geometria-plana-18" style="color: black; text-decoration: none;">Geometria Plana e Desenho Geométrico (2018.2)</a></p>
+        <p><a href="licen-mat.html" style="color: black; text-decoration: none;">História da Matemática (13º Bimestre)</a></p>
+        <p><a href="licen-mat.html#logica-mat" style="color: black; text-decoration: none;">Lógica e Matemática Discreta (11º Bimestre)</a></p>
+        <p><a href="licen-mat.html#mat" style="color: black; text-decoration: none;">Matemática</a></p>
+        <p><a href="licen-mat.html#mat-basica" style="color: black; text-decoration: none;">Matemática Básica</a></p>
+        <p><a href="licen-mat.html#mecanica" style="color: black; text-decoration: none;">Mecânica</a></p>
+        <p><a href="licen-mat.html#metodos-prod" style="color: black; text-decoration: none;">Métodos para a Produção do Conhecimento (8º Bimestre)</a></p>
+        <p><a href="licen-mat.html#plan-matematica-12" style="color: black; text-decoration: none;">Planejamento para o Ensino de Matemática l (12º Bimestre)</a></p>
+        <p><a href="licen-mat.html#plan-matematica-12-2" style="color: black; text-decoration: none;">Planejamento para o Ensino de Matemática ll (12º Bimestre)</a></p>
+
+        <p><a href="licen-mat.html#praticas-matematica-1" style="color: black; text-decoration: none;">Práticas para o Ensino de Matemática l (10º Bimestre)</a></p>
+        <p><a href="licen-mat.html#praticas-matematica-2" style="color: black; text-decoration: none;">Práticas para o Ensino de Matemática ll (12º Bimestre)</a></p>
+        <p><a href="licen-mat.html#praticas-matematica-3" style="color: black; text-decoration: none;">Práticas para o Ensino de Matemática lll (13º Bimestre)</a></p>
+        <p><a href="licen-mat.html#praticas-matematica-4" style="color: black; text-decoration: none;">Práticas para o Ensino de Matemática IV (15º Bimestre)</a></p>
+        <p><a href="licen-mat.html#psico-edu" style="color: black; text-decoration: none;">Psicologia da Educação</a></p>
+        <p><a href="licen-mat.html#teoria-numeros-15" style="color: black; text-decoration: none;">Teoria dos Números (15º Bimestre)</a></p>
+
+  </div>
+
+
+    <div class="course">
+
+    <h3><a href="licen-quimica.html" style="color: #D13239; text-decoration: none;"> Química </h3>
+        <p><a href="licen-quimica.html#analise-instrumental-16" style="color: black; text-decoration: none;">Análise Instrumental (16º Bimestre)</a></p>
+        <p><a href="licen-quimica.html#bioquimica-15" style="color: black; text-decoration: none;">Bioquímica (15º Bimestre)</a></p>
+        <p><a href="licen-quimica.html#calculo-geo-9" style="color: black; text-decoration: none;">Cálculo e Geometria Analítica (9º Bimestre)</a></p>
+        <p><a href="licen-quimica.html#fisico-quimica-1" style="color: black; text-decoration: none;">Físico-Química l (1º Bimestre)</a></p>
+        <p><a href="licen-quimica.html#fisico-quimica-2" style="color: black; text-decoration: none;">Físico-Química ll (13º Bimestre)</a></p>
+        <p><a href="licen-quimica.html#histo-quimica-2" style="color: black; text-decoration: none;">História e Filosofia da Química (14º Bimestre)</a></p>
+        <p><a href="licen-quimica.html#meto-quimica-2" style="color: black; text-decoration: none;">Metodologia para o Ensino de Química (13º Bimestre)</a></p>
+        <p><a href="licen-quimica.html#pesquisa-ensino" style="color: black; text-decoration: none;">Pesquisa para o Ensino de Química (15º Bimestre)</a></p>
+        <p><a href="licen-quimica.html#pratica-ensino-1" style="color: black; text-decoration: none;">Práticas para o Ensino de Química l (12º Bimestre)</a></p>
+        <p><a href="licen-quimica.html#pratica-ensino-2" style="color: black; text-decoration: none;">Práticas para o Ensino de Química ll (13º Bimestre)</a></p>
+        <p><a href="licen-quimica.html#pratica-ensino-3" style="color: black; text-decoration: none;">Práticas para o Ensino de Química lll (15º Bimestre)</a></p>
+        <p><a href="licen-quimica.html#quimica-analitica-9" style="color: black; text-decoration: none;">Química Analítica (9º Bimestre)</a></p>
+        <p><a href="licen-quimica.html#quimica-experimental" style="color: black; text-decoration: none;">Química Experimental (14º Bimestre)</a></p>
+        <p><a href="licen-quimica.html#quimica-7" style="color: black; text-decoration: none;">Química Geral (7º Bimestre)</a></p>
+        <p><a href="licen-quimica.html#quimica-inorganica" style="color: black; text-decoration: none;">Química Inorgânica (11º Bimestre)</a></p>
+        <p><a href="licen-quimica.html#quimica-organica" style="color: black; text-decoration: none;">Química Orgânica l (12º Bimestre)</a></p>
+        <p><a href="licen-quimica.html#quimica-organica-2" style="color: black; text-decoration: none;">Química Orgânica ll (14º Bimestre)</a></p>
+        <p><a href="licen-quimica.html#quimica-sociedade" style="color: black; text-decoration: none;">Química, Sociedade e Cotidiano (16º Bimestre)</a></p>
+        
+      
+    </div>
+
+
+    <div class="course">
+
+    <h3><a href="licenciatura.html" style="color: #D13239; text-decoration: none;"> NÃO SEI </h3>
+        <p><a href="licenciatura.html#edu-inclusao" style="color: black; text-decoration: none;">Educação e Inclusão Social (5º Bimestre)</a></p>
+        <p><a href="licenciatura.html#estudo-atmosfera" style="color: black; text-decoration: none;">Estudos da Atmosfera, Geosfera e Hidrosfera (7º Bimestre)</a></p>
+        <p><a href="licenciatura.html#estatistica" style="color: black; text-decoration: none;">Estatística (3º Bimestre)</a></p>
+
+        <p><a href="licenciatura.html#filosofia-edu" style="color: black; text-decoration: none;">Filosofia da Educação (3º Bimestre) </a></p>
+        <p><a href="licenciatura.html#fdm-ong-8" style="color: black; text-decoration: none;">Fundamentos da Organização do Currículo Escolar (8º Bimestre) </a></p>
+        <p><a href="licenciatura.html#ingles" style="color: black; text-decoration: none;">Inglês </a></p>
+        <p><a href="licenciatura.html#ingles-3" style="color: black; text-decoration: none;">Inglês lll (5º BimestreS)</a></p>
+        <p><a href="licenciatura.html#ingles-3-6" style="color: black; text-decoration: none;">Inglês lll (6º BimestreS)</a></p>
+        
+        <p><a href="licenciatura.html#ingles-4" style="color: black; text-decoration: none;">Inglês IV (7º BimestreS)</a></p>
+        <p><a href="licenciatura.html#ingles-vi" style="color: black; text-decoration: none;">Inglês VI (11º Bimestre)</a></p>
+        <p><a href="licenciatura.html#ingles-vi-b" style="color: black; text-decoration: none;">Inglês VI (12º Bimestre)</a></p>
+        <p><a href="licenciatura.html#ingles-vb" style="color: black; text-decoration: none;">Inglês VB (10º Bimestre)</a></p>
+        <p><a href="licenciatura.html#historia-edu" style="color: black; text-decoration: none;">História da Educação no Brasil (2º Bimestre)</a></p>
+        <p><a href="licenciatura.html#leitura-prod" style="color: black; text-decoration: none;">Leitura e Produção de Texto (1º Bimestre)</a></p>
+
+        <p><a href="licenciatura.html#legi-ensino" style="color: black; text-decoration: none;">Legislação do Ensino (7º Bimestre)</a></p>
+        <p><a href="licenciatura.html#letra-digital" style="color: black; text-decoration: none;">Letramento Digital (1º Bimestre)</a></p>
+        <p><a href="licenciatura.html#mecanica-9" style="color: black; text-decoration: none;">Mecânica (9º Bimestre)</a></p>
+        <p><a href="licenciatura.html#meio-ambiente" style="color: black; text-decoration: none;">Meio Ambiente e Sustentabilidade (5º Bimestre)</a></p>
+        
+        <p><a href="licenciatura.html#politica-publicas" style="color: black; text-decoration: none;">Políticas Públicas para a Educação (4º Bimestre) </a></p>
+        <p><a href="licenciatura.html#praticas-ciencias" style="color: black; text-decoration: none;">Práticas para o Ensino de Ciências (10º Bimestre) </a></p>
+        <p><a href="licenciatura.html#processos-avaliacao" style="color: black; text-decoration: none;">Processos de Avaliação (6º Bimestre) </a></p>
+        <p><a href="licenciatura.html#psico-desenvolvimento" style="color: black; text-decoration: none;">Psicologia do Desenvolvimento (4º Bimestre) </a></p>
+        <p><a href="licenciatura.html#teoria-aprendizagem" style="color: black; text-decoration: none;">Teoria da Aprendizagem </a></p>
+        
+    </div>
+
+
+      </div>
+    </div>
+  </div>
+
+
+<!-- TAB PROJETO INTEGRADOR -->
+    <div class="content" id="pi">
+    <div class="courses">
+
+
+      <div class="course">      
+
+      <div>
+      <h3><a href="pi-licen.html" style="color: #D13239; text-decoration: none;"> Projeto Integrador Licenciaturas</h3>
+      <p><a href="pi-licen.html#letras-mat" style="color: black; text-decoration: none;"> Letras, Matemática e Pedagogia</a><p>
+      <p><a href="pi-licen.html#letras-mat" style="color: black; text-decoration: none;"> Letras, Matemática e Pedagogia (iv)</a><p>
+      <p><a href="pi-licen.html#licenciatura-ciclo" style="color: black; text-decoration: none;"> Licenciatura Ciclo Básico</a><p>
+      <p><a href="pi-licen.html#licenciatura" style="color: black; text-decoration: none;"> Licenciatura</a><p>
+      <p><a href="pi-licen.html#mat-1" style="color: black; text-decoration: none;"> Matemática </a><p>
+      <p><a href="pi-licen.html#mat-2" style="color: black; text-decoration: none;"> Matemática II</a><p>
+      <p><a href="pi-licen.html#mat-3" style="color: black; text-decoration: none;"> Matemática III</a><p>
+      <p><a href="pi-licen.html#mat-4" style="color: black; text-decoration: none;"> Matemática IV</a><p>
+      <p><a href="pi-licen.html#mat-5" style="color: black; text-decoration: none;"> Matemática V</a><p>
+      <p><a href="pi-licen.html#mat-6" style="color: black; text-decoration: none;"> Matemática VI</a><p>
+      <p><a href="pi-licen.html#pedagogia" style="color: black; text-decoration: none;"> Pedagogia</a><p>
+
+
+      </div>
+      </div>
+
+
+      <div class="course">      
+
+      <div>
+      <h3><a href="pi.html" style="color: #D13239; text-decoration: none;"> Projeto Integrador </h3>
+      <p><a href="pi.html#computacao" style="color: black; text-decoration: none;"> Computação</a><p>
+      <p><a href="pi.html#edu-infantil" style="color: black; text-decoration: none;"> Educação Infantil</a><p>
+      <p><a href="pi.html#engenharia" style="color: black; text-decoration: none;"> Engenharia</a><p>
+      <p><a href="pi.html#engenharia-computacao" style="color: black; text-decoration: none;"> Engenharia de Computação</a><p>
+      <p><a href="pi.html#engenharia-producao" style="color: black; text-decoration: none;"> Engenharia de Produção</a><p>
+      <p><a href="pi.html#leitura-producao" style="color: black; text-decoration: none;"> Leitura e produção de textos por meio de temas transversais</a><p>
+      <p><a href="pi.html#plano-aula" style="color: black; text-decoration: none;"> Plano de Aula</a><p>
+      </div>
+      </div>
+
+
+      <div class="course">      
+
+      <div>
+      <h3><a href="pi-2.html" style="color: #D13239; text-decoration: none;"> Projeto Integrador II</h3>
+      <p><a href="pi-2.html#engenharias" style="color: black; text-decoration: none;"> Engenharias (2018.2)</a><p>
+      <p><a href="pi-2.html#engenharias-2" style="color: black; text-decoration: none;"> Engenharias II</a><p>
+      <p><a href="pi-2.html#engenharia-computacao" style="color: black; text-decoration: none;"> Engenharia de Computação</a><p>
+      <p><a href="pi-2.html#engenharia-computacao-2" style="color: black; text-decoration: none;"> Engenharia de Computação II</a><p>
+      <p><a href="pi-2.html#engenharia-producao" style="color: black; text-decoration: none;"> Engenharia de Produção</a><p>
+      <p><a href="pi-2.html#engenharia-producao-2" style="color: black; text-decoration: none;"> Engenharia de Produção II</a><p>
+      <p><a href="pi-2.html#gestao" style="color: black; text-decoration: none;"> Gestão Pública</a><p>
+      <p><a href="pi-2.html#licenciatura" style="color: black; text-decoration: none;"> Licenciatura</a><p>
+      <p><a href="pi-2.html#mat" style="color: black; text-decoration: none;"> Matemática</a><p>
+      <p><a href="pi-2.html#negocios-producao" style="color: black; text-decoration: none;"> Negócios e Produção</a><p>
+      <p><a href="pi-2.html#pedagogia" style="color: black; text-decoration: none;"> Pedagogia</a><p>
+      
+      </div>
+      </div>
+
+      <div class="course">      
+
+      <div>
+      <h3><a href="pi-3.html" style="color: #D13239; text-decoration: none;"> Projeto Integrador III</h3>
+      <p><a href="pi-3.html#engenharia" style="color: black; text-decoration: none;"> Engenharia</a><p>
+      <p><a href="pi-3.html#engenharia-2" style="color: black; text-decoration: none;"> Engenharia II</a><p>
+      <p><a href="pi-3.html#engenharia-3" style="color: black; text-decoration: none;"> Engenharia III</a><p>
+      <p><a href="pi-3.html#engenharia-computacao" style="color: black; text-decoration: none;"> Engenharia de Computação</a><p>
+      <p><a href="pi-3.html#mat" style="color: black; text-decoration: none;"> Matemática</a><p>
+      <p><a href="pi-3.html#negocios-producao" style="color: black; text-decoration: none;"> Negócios e Produção</a><p>
+      <p><a href="pi-3.html#pedagogia" style="color: black; text-decoration: none;"> Pedagogia</a><p>
+
+      </div>
+      </div>
+
+      <div class="course">      
+
+      <div>
+      <h3><a href="pi-iv.html" style="color: #D13239; text-decoration: none;"> Projeto Integrador IV</h3>
+      <p><a href="pi-iv.html#adm" style="color: black; text-decoration: none;"> Administração</a><p>
+      <p><a href="pi-iv.html#cien-dados" style="color: black; text-decoration: none;"> Ciência de Dados</a><p>
+      <p><a href="pi-iv.html#engenha" style="color: black; text-decoration: none;"> Engenharias</a><p>
+      <p><a href="pi-iv.html#engenha-computacao" style="color: black; text-decoration: none;"> Engenharia da Computação</a><p>
+      <p><a href="pi-iv.html#engenha-computacao-2" style="color: black; text-decoration: none;"> Engenharia da Computação II</a><p>
+      <p><a href="pi-iv.html#engenha-computacao-3" style="color: black; text-decoration: none;"> Engenharia da Computação III</a><p>
+      <p><a href="pi-iv.html#engenha-prod" style="color: black; text-decoration: none;"> Engenharia de Produção</a><p>
+      <p><a href="pi-iv.html#engenha-prod-2" style="color: black; text-decoration: none;"> Engenharia de Produção II</a><p>
+      <p><a href="pi-iv.html#engenha-prod-3" style="color: black; text-decoration: none;"> Engenharia de Produção III</a><p>
+      <p><a href="pi-iv.html#mat" style="color: black; text-decoration: none;"> Matemática </a><p>
+      <p><a href="pi-iv.html#pedagogia" style="color: black; text-decoration: none;"> Pedagogia </a><p>
+      <p><a href="pi-iv.html#pedagogia-2" style="color: black; text-decoration: none;"> Pedagogia II</a><p>
+      <p><a href="pi-iv.html#pedagogia-3" style="color: black; text-decoration: none;"> Pedagogia III</a><p>
+
+      </div>
+      </div>
+
+
+      <div class="course">      
+
+      <div>
+      <h3><a href="pi-v.html" style="color: #D13239; text-decoration: none;"> Projeto Integrador V</h3>
+      <p><a href="pi-v.html#engenharia" style="color: black; text-decoration: none;"> Engenharia</a><p>
+      <p><a href="pi-v.html#engenharia-2" style="color: black; text-decoration: none;"> Engenharia II</a><p>
+      <p><a href="pi-v.html#engenharia-producao" style="color: black; text-decoration: none;"> Engenharia de Produção</a><p>
+      <p><a href="pi-v.html#pedagogia" style="color: black; text-decoration: none;"> Pedagogia</a><p>
+      <p><a href="pi-v.html#pedagogia-2" style="color: black; text-decoration: none;"> Pedagogia II</a><p>
+
+      </div>
+      </div>
+
+            <div class="course">      
+
+      <div>
+      <h3><a href="pi-vi.html" style="color: #D13239; text-decoration: none;"> Projeto Integrador VI</h3>
+      <p><a href="pi-vi.html#engenha-computacao" style="color: black; text-decoration: none;"> Engenharia da Computação</a><p>
+      <p><a href="pi-vi.html#engenha-producao" style="color: black; text-decoration: none;"> Engenharia de Produção</a><p>
+      <p><a href="pi-vi.html#engenha-producao-2" style="color: black; text-decoration: none;"> Engenharia de Produção II</a><p>
+      <p><a href="pi-vi.html#engenha-producao-3" style="color: black; text-decoration: none;"> Engenharia de Produção III</a><p>
+      <p><a href="pi-vi.html#engenha-producao-4" style="color: black; text-decoration: none;"> Engenharia de Produção IIII</a><p>
+      <p><a href="pi-vi.html#mat" style="color: black; text-decoration: none;"> Matemática</a><p>
+      <p><a href="pi-vi.html#mat-2" style="color: black; text-decoration: none;"> Matemática II</a><p>
+      <p><a href="pi-vi.html#pedagogia" style="color: black; text-decoration: none;"> Pedagogia</a><p>
+      <p><a href="pi-vi.html#pedagogia-2" style="color: black; text-decoration: none;"> Pedagogia II</a><p>
+
+      </div>
+      </div>
+
+      <div class="course">
+
+      <div>
+      <h3><a href="pi-vii.html" style="color: #D13239; text-decoration: none;"> Projeto Integrador VII</h3>
+      <p><a href="pi-vii.html#engenha-computacao" style="color: black; text-decoration: none;"> Engenharia de Computação</a><p>
+      <p><a href="pi-vii.html#engenha-computacao-2" style="color: black; text-decoration: none;"> Engenharia de Computação II</a><p>
+      <p><a href="pi-vii.html#engenha-producao" style="color: black; text-decoration: none;"> Engenharia de Produção</a><p>
+        
+
+      </div>
+      </div>
+      </div>
+      </div>
+
+
+      
+  <!-- TAB TCC -->
+    <div class="content" id="tcc">
+
+<div class="courses">
+      <div class="course">      
+
+<div>
+
+      <h3><a href="tcc.html" style="color: #D13239; text-decoration: none;"> Trabalho de Conclusão de Curso</h3>
+      <p><a href="tcc.html#engenha-computacao" style="color: black; text-decoration: none;"> Engenharia de Computação</a></p>
+      <p><a href="tcc.html#engenha-computacao-2" style="color: black; text-decoration: none;"> Engenharia de Computação II</a></p>
+      <p><a href="tcc.html#engenha-producao" style="color: black; text-decoration: none;"> Engenharia de Produção</a></p>
+      <p><a href="tcc.html#engenha-producao-2" style="color: black; text-decoration: none;"> Engenharia de Produção II</a></p>
+      <p><a href="tcc.html#letras" style="color: black; text-decoration: none;"> Letras</a></p>
+      <p><a href="tcc.html#mat" style="color: black; text-decoration: none;"> Matemática</a></p>
+      <p><a href="tcc.html#pedagogia" style="color: black; text-decoration: none;"> Pedagogia</a></p>
+      
+      </div>
+      </div>
+</div>
+      </div>
+
+  <!-- TAB UNESP -->
+    <div class="content" id="federais">
+
+<div class="courses">
+      <div class="course">      
+
+<div>
+
+      <h3><a href="unesp.html" style="color: #D13239; text-decoration: none;"> Cursos UNESP</h3>
+      <p><a href="unesp.html#historia-arte-1" style="color: black; text-decoration: none;"> História da Arte l</a></p>
+      <p><a href="unesp.html#historia-musica-2" style="color: black; text-decoration: none;"> História da Música ll</a></p>
+       
+      
+      </div>
+      </div>
+
+<!-- TAB UNICAMP -->
+<div class="courses">
+ <div class="course">
+
+        <h3><a href="unicamp.html" style="color: #D13239; text-decoration: none;"> Cursos UNICAMP</h3>
+        <p><a href="unicamp.html#calculo-3" style="color: black; text-decoration: none;">Cálculo III</a></p>
+        <p><a href="unicamp.html#fisica-2" style="color: black; text-decoration: none;">Física Geral II</a></p>
+        <p><a href="unicamp.html#fisica-3" style="color: black; text-decoration: none;">Física Geral III</a></p>
+        <p><a href="unicamp.html#fisica-iv" style="color: black; text-decoration: none;">Física Geral IV</a></p>
+        <p><a href="unicamp.html#geometria" style="color: black; text-decoration: none;">Geometria Analítica e Vetores</a></p>
+      
+      </div>
+    </div>
+
+
+
+
+    <div class="course">
+
+        <h3><a href="usp.html" style="color: #D13239; text-decoration: none;"> Cursos USP</h3>
+
+        <p><a href="usp.html#astronomia-2" style="color: black; text-decoration: none;">Astronomia ll </a></p>
+        <p><a href="usp.html#calculo-ll-engenha" style="color: black; text-decoration: none;">Cálculo ll (Engenharia)</a></p>
+        <p><a href="usp.html#calculo-lll-engenha" style="color: black; text-decoration: none;">Cálculo lll (Engenharia)</a></p>
+        <p><a href="usp.html#calculo-lll-8" style="color: black; text-decoration: none;">Cálculo lll - Revisão e Complementação (Aula 8)</a></p>
+        <p><a href="usp.html#calculo-lll-9" style="color: black; text-decoration: none;">Cálculo lll - Integral de Linha de campos Vetoriais (Aula 9)</a></p>
+        <p><a href="usp.html#calculo-lll-10" style="color: black; text-decoration: none;">Cálculo lll - Teorema de Green (Aula 10)</a></p>
+        <p><a href="usp.html#calculo-lll-12" style="color: black; text-decoration: none;">Cálculo lll - Revisão e Aprofundamento (Aula 12)</a></p>
+        <p><a href="usp.html#calculo-lll-13" style="color: black; text-decoration: none;">Cálculo lll - Integrais de superfícies de Campos Vetoriais (Aula 13)</a></p>
+        <p><a href="usp.html#calculo-lll-15" style="color: black; text-decoration: none;">Cálculo lll - Teorema de stokes (Aula 15)</a></p>
+        <p><a href="usp.html#calculo-lll-16" style="color: black; text-decoration: none;">Cálculo lll - Revisão e Aprofundamento (Aula 16)</a></p>
+        <p><a href="usp.html#calculo-iv" style="color: black; text-decoration: none;">Cálculo IV (Engenharia)</a></p>
+        <p><a href="usp.html#enunciacao" style="color: black; text-decoration: none;">Enunciação</a></p>
+        
+        <p><a href="usp.html#metodologia-eco" style="color: black; text-decoration: none;">Metodologia da Economia</a></p>
+        
+        <p><a href="usp.html#intro-bioquimica" style="color: black; text-decoration: none;">Introdução à Bioquímica</a></p>
+        <p><a href="usp.html#histo-brasil-2" style="color: black; text-decoration: none;">História do Brasil Colonial II</a></p>
+        <p><a href="usp.html#histo-relacoes-1" style="color: black; text-decoration: none;">História das Relações Internacionais I</a></p>
+        <p><a href="usp.html#histo-relacoes-2" style="color: black; text-decoration: none;">História das Relações Internacionais II</a></p>
+        <p><a href="usp.html#histo-america-2" style="color: black; text-decoration: none;">História da América Independente ll</a></p>
+        <p><a href="usp.html#etica" style="color: black; text-decoration: none;">Tópicos de Ética e Educação</a></p>
+        <p><a href="usp.html#epistemologia " style="color: black; text-decoration: none;">Tópicos de Epistemologia e Didática</a></p>
+        <p><a href="usp.html#quimica-inorganica" style="color: black; text-decoration: none;">Química Geral e Inorgânica Básica</a></p>
+        <p><a href="usp.html#quimica-6" style="color: black; text-decoration: none;">Química Geral - Equilíbrios Químicos (Aula 6)</a></p>
+        <p><a href="usp.html#quimica-7" style="color: black; text-decoration: none;">Química Geral - Constantes de Equilíbrio (Aula 7)</a></p>
+
+
+      </div>
+    </div>
+
+
+
+
+    </div>
+      </div>
+    </div>
+  </div>
+
+<br><br><br><br><br><br><br><br>
+
+    
+   <!-- rodapé -->
+
+<footer>
+    <br><br>
+    <div class="boxs">
+        <br><br><br>
+         <a href="teste.html"><img src="assets/logo-univesp-branco.png"></a>
+        </div>
+
+        <div class="boxs">
+            <br><br><br>
+            <h11>Contato</h11>
+            <br>
+        <ul>
+            <li><p>Avenida Paulista, n°352, 14° andar</p>
+                <p>Bela Vista, São Paulo - SP</p>
+                <P>CEP: 01310-000</P>
+            </li>
+
+            <br>
+
+            <h11>E-mail</h11>
+            <li><p>univesp@univesp.br</p></li>
+
+             <br>
+
+            <h11>Telefone</h11>
+            <li><p>+55 11 3188-6700</p></li>
+        </ul>
+        </div>
+
+        <div class="boxs">
+            <br><br><br>
+            <h11>Links Rápidos</h11>
+            <ul>
+            <li><a href="#">Vestibular</a></li>
+
+            <li><a href="#">Cursos</a></li>
+
+            <li><a href="#">Polos</a></li>
+
+            <li><a href="#">Institucional</a></li>
+
+            <li><a href="#">Transparência</a></li>
+            </li>
+        </ul>
+        </div>
+
+
+         <div class="boxs">
+          <div class="redes">
+            <br><br><br>
+            <h11>Univesp nas redes</h11>
+            <p>
+
+            <a href="https://www.instagram.com/univespoficial/">
+            <img src="assets/instagram.png"></a>
+
+            <a href="https://www.youtube.com/channel/UCBL2tfrwhEhX52Dze_aO3zA" target="_blank" title="youtube">
+            <img src="assets/youtube.png"></a>
+
+            <a href="https://www.facebook.com/pages/UNIVESP-Universidade-Virtual-do-Estado-de-S%C3%A3o-Paulo/1506859409552887" target="_blank" title="Facebook">
+            <img src="assets/facebook.png"></a>
+            </p>
+            </div>
+        </div>
+
+        
+</footer>
+<script>
+  const searchInput = document.getElementById('searchInput');
+  const tabs = document.querySelectorAll('.tab');
+  const contents = document.querySelectorAll('.content');
+  const searchResultsSection = document.getElementById('search-results-section');
+  const searchResults = document.getElementById('search-results');
+  const noResults = document.getElementById('no-results');
+
+  // Controle das abas (clique)
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      tabs.forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+
+      const target = tab.dataset.target;
+      contents.forEach(content => {
+        content.classList.remove('active');
+        if (content.id === target) {
+          content.classList.add('active');
+        }
+      });
+
+      // Mostrar aba ativa e limpar busca
+      searchResultsSection.style.display = 'none';
+      noResults.style.display = 'none';
+      searchInput.value = '';
+
+      tabs.forEach(t => t.style.display = '');
+      contents.forEach(c => {
+        if (c.classList.contains('active')) {
+          c.style.display = 'block';
+        } else {
+          c.style.display = 'none';
+        }
+      });
+    });
+  });
+
+  // Busca (apenas disciplinas e título do grupo)
+  searchInput.addEventListener('input', () => {
+    const searchTerm = searchInput.value.toLowerCase().trim();
+
+    if (searchTerm === '') {
+      searchResultsSection.style.display = 'none';
+      searchResults.innerHTML = '';
+      noResults.style.display = 'none';
+
+      tabs.forEach(t => t.style.display = '');
+      contents.forEach(c => {
+        if (c.classList.contains('active')) {
+          c.style.display = 'block';
+        } else {
+          c.style.display = 'none';
+        }
+      });
+      return;
+    }
+
+    // Modo busca
+    tabs.forEach(t => t.style.display = 'none');
+    contents.forEach(c => c.style.display = 'none');
+    searchResultsSection.style.display = 'block';
+    searchResults.innerHTML = '';
+    noResults.style.display = 'none';
+
+    let found = false;
+
+    contents.forEach(content => {
+      const courseBlocks = content.querySelectorAll('.course');
+
+      courseBlocks.forEach(course => {
+        const courseTitle = course.querySelector('h3');
+        const courseLinks = course.querySelectorAll('p');
+
+        const matchedItems = [];
+
+        courseLinks.forEach(p => {
+          const text = p.innerText.toLowerCase();
+          if (text.includes(searchTerm)) {
+            matchedItems.push(p.cloneNode(true));
+          }
+        });
+
+        if (matchedItems.length > 0) {
+          found = true;
+          const resultDiv = document.createElement('div');
+          resultDiv.className = 'course';
+
+          if (courseTitle) {
+            resultDiv.appendChild(courseTitle.cloneNode(true));
+          }
+
+          matchedItems.forEach(item => resultDiv.appendChild(item));
+
+          searchResults.appendChild(resultDiv);
+        }
+      });
+    });
+
+    if (!found) {
+      noResults.style.display = 'block';
+    }
+  });
+</script>
+
+
+
+
+
+  </body>
+
+
+
+</html>
+
+    <!--java-->
+
+<script src="java.js"></script>
+
+</body>
+</html>

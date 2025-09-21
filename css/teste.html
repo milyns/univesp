@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabs Responsivas</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      margin: 20px;
+    }
+
+    .tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    .tab {
+      padding: 10px 16px;
+      background-color: #f0f0f0;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.2s;
+      font-weight: bold;
+    }
+
+    .tab.active {
+      background-color: #AF1C27;
+      color: white;
+    }
+
+    .tab-content {
+      display: none;
+      animation: fadeIn 0.3s ease;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+    }
+
+    /* Responsivo */
+    @media screen and (max-width: 768px) {
+      .tabs {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .tab {
+        width: 90%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="tabs">
+    <div class="tab active" data-tab="engenharia">Engenharia</div>
+    <div class="tab" data-tab="direito">Direito</div>
+    <div class="tab" data-tab="pedagogia">Pedagogia</div>
+  </div>
+
+  <div id="engenharia" class="tab-content active">
+    <h3>Engenharia</h3>
+    <p>Conteúdo extenso e completo de engenharia. Pode ter vários parágrafos, imagens e vídeos.</p>
+    <p>Mais conteúdo sobre cálculo, física, algoritmos etc.</p>
+  </div>
+
+  <div id="direito" class="tab-content">
+    <h3>Direito</h3>
+    <p>Conteúdo exclusivo sobre Direito Constitucional e Penal.</p>
+  </div>
+
+  <div id="pedagogia" class="tab-content">
+    <h3>Pedagogia</h3>
+    <p>Conteúdo sobre metodologias de ensino, educação infantil e planejamento pedagógico.</p>
+  </div>
+
+  <script>
+    const tabs = document.querySelectorAll('.tab');
+    const contents = document.querySelectorAll('.tab-content');
+
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        const target = tab.dataset.tab;
+
+        tabs.forEach(t => t.classList.remove('active'));
+        contents.forEach(c => c.classList.remove('active'));
+
+        tab.classList.add('active');
+        document.getElementById(target).classList.add('active');
+      });
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,680 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+
+
+/* REDONDINHO */
+
+.botao-home {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #AF1C27;
+  color: white;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.botao-home:hover {
+  background-color: #8e1922;
+}
+
+
+
+/* REDONDINHO TOPO*/
+
+.botao-topo {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  background-color: #AF1C27;
+  color: white;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.botao-home:hover {
+  background-color: #8e1922;
+}
+
+
+
+
+/* REDONDINHO LIBRAS */
+
+.botao-libras {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  background-color: #AF1C27;
+  color: white;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.botao-libras:hover {
+  background-color: #8e1922;
+}
+
+/* MENU FILTRO  */
+
+.curso-bloco {
+  margin-bottom: 40px;
+}
+
+  #filtro-curso {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #AF1C27;
+    background-color: #ffffff;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+
+  #filtro-curso:hover {
+    background-color: #f9f9f9;
+    border-color: #8e1721;
+  }
+
+  #filtro-curso:focus {
+    outline: none;
+    border-color: #8e1721;
+    box-shadow: 0 0 0 3px rgba(175, 28, 39, 0.2);
+  }
+
+  center label {
+    font-size: 18px;
+    color: #AF1C27;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+
+
+
+/* MENU FIXO */
+.navbar-main-img {
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  z-index: 10;
+  height: 60px;
+}
+
+.navbar-main {
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* Parte superior vermelha */
+.navbar-top-half {
+  background-color: #AF1C27;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 30px;
+  align-items: center;
+}
+
+/* "Buscar" só texto */
+.search-container {
+  font-weight: bold;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.search-icon {
+  width: 18px;
+  height: 18px;
+}
+
+/* "Menu" com ícone */
+.menu-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.menu-lateral {
+  position: fixed;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #c93030;
+  color: white;
+  z-index: 999;
+  transition: top 0.5s ease;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.menu-lateral ul {
+  list-style: none;
+  padding: 0;
+  margin: 4rem 0 0 0;
+  font-size: 1.4rem;
+}
+
+.menu-lateral ul li {
+  margin: 1.2rem 0;
+  cursor: pointer;
+}
+
+.fechar {
+  font-size: 2rem;
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  cursor: pointer;
+}
+
+.menu-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+/* Parte inferior cinza */
+.navbar-bottom-half {
+  background-color: #e3e5e6;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+
+/* Botões vermelhos arredondados */
+.btn-custom {
+  background-color: #AF1C27;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 9px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-custom:hover {
+  background-color: #8f1b22;
+}
+
+.fixed-top-right {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 9999;
+  width: 300px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+/*DESTAQUE*/
+
+/* Filtro escuro */
+.container-text::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+/* Ajuste dos elementos internos */
+.container-text > * {
+  position: relative;
+  z-index: 2;
+}
+
+/* Título */
+.container-text h1 {
+  font-size: 110px;
+  color: #af1817;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+/* Frase Subtítulo */
+.container-text p {
+  font-size: 1.2rem;
+  color: #fff;
+  max-width: 600px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Botão */
+.container-text button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #af1817;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.container-text button:hover {
+  background-color: #892c31;
+  transform: scale(1.05);
+}
+
+.container-text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  background-image: url('https://univesp.br/sites/58f6506869226e9479d38201/pages/58f6506869226e9479d38203/files/Univesp_2025__Divulgacao_-_Vestibular__-_BAIXA_RESOLUCAO__23.jpg?1748878674');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  overflow: hidden;
+}
+
+/* TEXTO */
+h10 {
+  color: gray;
+}
+
+h7 {
+  color: #af1817;
+  font-family: 'open sans', serif;
+  font-weight: bold;
+  font-size: 3em;
+}
+
+.text-desc {
+  text-align: justify;
+}
+
+.textblock.bg-white .textblock_body {
+  background: #fff;
+}
+
+.textblock_body {
+  background: #fff;
+  overflow: hidden;
+  color: #000;
+  padding: 0 142px;
+  word-wrap: break-word;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-inline-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+/* NAVBAR */
+
+.logo-univesp {
+  position: absolute;
+  top: 60px;
+  left: 20px;
+  z-index: 10;
+  height: 60px;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #fff;
+}
+
+.navbar-top {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+  padding: 10px 20px;
+}
+
+.navbar-top-right {
+  display: flex;
+  gap: 10px;
+  margin-left: auto;
+}
+
+.navbar-top-right img {
+  height: 20px;
+  cursor: pointer;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  background-color: #000;
+  border-radius: 0px 80px 80px 0px;
+}
+
+.logo-sp {
+  height: 55px;
+  margin-right: 5px;
+}
+
+.sp-digital-button {
+  border-radius: 150px;
+  padding: 2px 10px;
+  background: #fff;
+  border: 2px solid #000;
+  margin-left: auto;
+  margin-right: 130px;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.sp-digital {
+  color: #000;
+  font-size: 14px;
+}
+
+/* FOOTER */
+
+footer {
+  width: 100%;
+  min-height: 250px;
+  background: #354551;
+  display: flex;
+  font-family: 'open sans', sans-serif;
+}
+
+footer img {
+  height: 60px;
+  width: auto;
+  padding-left: 45px;
+}
+
+footer .redes img {
+  height: 30px;
+  gap: 2px;
+}
+
+footer .boxs {
+  width: 320px;
+  min-width: 150px;
+  padding: 20px;
+}
+
+footer .box:nth-child(4) {
+  width: 400px;
+}
+
+.boxs h11 {
+  color: #fff;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.boxs ul li {
+  margin: 10px 0px;
+  list-style: none;
+}
+
+.boxs ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.boxs ul li a:hover {
+  color: #fff;
+}
+
+.boxs p {
+  color: #fff;
+  text-align: justify;
+}
+
+.footer {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #354551;
+  padding: 48px 20px;
+}
+
+.footer h2 {
+  color: #fff;
+}
+
+.footer .sociais {
+  display: flex;
+}
+
+
+/* RESPONSIVIDADE */
+
+/* Tablets e telas médias */
+@media (max-width: 1024px) {
+  .container-text h1 {
+    font-size: 80px;
+  }
+  
+  .fixed-top-right {
+    width: 250px;
+  }
+  
+  .navbar-top-half {
+    padding: 30px 20px;
+  }
+}
+
+/* Tablets pequenos e smartphones grandes */
+@media (max-width: 768px) {
+  /* Navbar responsiva */
+  .navbar-top {
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+  }
+  
+  .logo-container {
+    border-radius: 0px 40px 40px 0px;
+  }
+  
+  .sp-digital-button {
+    margin-right: 0;
+    margin-top: 10px;
+  }
+  
+  .navbar-top-right {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .navbar-top-right h10 {
+    padding-right: 0;
+    margin-left: 0;
+  }
+  
+  /* Menu fixo responsivo */
+  .fixed-top-right {
+    position: relative;
+    width: 100%;
+    top: 0;
+    right: 0;
+    box-shadow: none;
+  }
+  
+  .navbar-top-half {
+    padding: 20px 15px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .navbar-bottom-half {
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+  }
+  
+  .btn-custom {
+    font-size: 12px;
+    padding: 10px 20px;
+  }
+  
+  /* Container de texto responsivo */
+  .container-text {
+    height: 80vh;
+    padding: 20px;
+  }
+  
+  .container-text h1 {
+    font-size: 50px;
+  }
+  
+  .container-text p {
+    font-size: 1rem;
+    max-width: 90%;
+  }
+  
+  .container-text button {
+    padding: 12px 24px;
+    font-size: 1.1rem;
+  }
+  
+  /* Logo responsiva */
+  .logo-univesp {
+    position: relative;
+    top: 20px;
+    left: 0;
+    height: 50px;
+    display: block;
+    margin: 0 auto 20px;
+  }
+  
+  .navbar-main-img {
+    position: relative;
+    top: 0;
+    left: 0;
+    text-align: center;
+    height: auto;
+  }
+  
+  /* Footer responsivo */
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  footer .boxs {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  footer img {
+    padding-left: 0;
+  }
+  
+  footer .box:nth-child(4) {
+    width: 100%;
+  }
+}
+
+/* Smartphones */
+@media (max-width: 480px) {
+  .container-text h1 {
+    font-size: 35px;
+  }
+  
+  .container-text p {
+    font-size: 0.9rem;
+  }
+  
+  .navbar-top-half {
+    padding: 15px 10px;
+  }
+  
+  .search-container,
+  .menu-container {
+    font-size: 14px;
+  }
+  
+  .btn-custom {
+    font-size: 10px;
+    padding: 8px 16px;
+  }
+  
+  .logo-sp {
+    height: 45px;
+  }
+  
+  .sp-digital-button {
+    font-size: 8px;
+    padding: 1px 8px;
+  }
+  
+  footer .boxs {
+    padding: 10px;
+  }
+  
+  .boxs h11 {
+    font-size: 1.2rem;
+  }
+}
+
+/* Smartphones muito pequenos */
+@media (max-width: 320px) {
+  .container-text h1 {
+    font-size: 28px;
+  }
+  
+  .container-text p {
+    font-size: 0.8rem;
+  }
+  
+  .btn-custom {
+    width: 100%;
+    margin: 5px 0;
+  }
+}
